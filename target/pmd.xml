@@ -1,0 +1,1406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="5.2.3" timestamp="2015-05-16T00:17:56.557">
+<file name="C:\Users\Vili\workspaceZaJavaTecaj\calculator\src\main\java\hr\fer\zemris\java\gui\calc\Calculation.java">
+<violation beginline="11" endline="102" begincolumn="8" endcolumn="1" rule="CyclomaticComplexity" ruleset="Code Size" package="hr.fer.zemris.java.gui.calc" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/codesize.html#CyclomaticComplexity" priority="3">
+The class 'Calculation' has a Cyclomatic Complexity of 8 (Highest = 21).
+</violation>
+<violation beginline="11" endline="102" begincolumn="8" endcolumn="1" rule="StdCyclomaticComplexity" ruleset="Code Size" package="hr.fer.zemris.java.gui.calc" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/codesize.html#StdCyclomaticComplexity" priority="3">
+The class 'Calculation' has a Standard Cyclomatic Complexity of 8 (Highest = 21).
+</violation>
+<violation beginline="16" endline="16" begincolumn="24" endcolumn="35" rule="ImmutableField" ruleset="Design" package="hr.fer.zemris.java.gui.calc" class="Calculation" variable="firstOperand" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/design.html#ImmutableField" priority="3">
+Private field 'firstOperand' could be made final; it is only initialized in the declaration or constructor.
+</violation>
+<violation beginline="26" endline="26" begincolumn="27" endcolumn="39" rule="ImmutableField" ruleset="Design" package="hr.fer.zemris.java.gui.calc" class="Calculation" variable="operationType" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/design.html#ImmutableField" priority="3">
+Private field 'operationType' could be made final; it is only initialized in the declaration or constructor.
+</violation>
+<violation beginline="40" endline="40" begincolumn="28" endcolumn="51" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc" class="Calculation" method="Calculation" variable="firstArg" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'firstArg' is not assigned and could be declared final
+</violation>
+<violation beginline="40" endline="40" begincolumn="81" endcolumn="102" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc" class="Calculation" method="Calculation" variable="oper" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'oper' is not assigned and could be declared final
+</violation>
+<violation beginline="40" endline="40" begincolumn="54" endcolumn="78" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc" class="Calculation" method="Calculation" variable="secondArg" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'secondArg' is not assigned and could be declared final
+</violation>
+<violation beginline="54" endline="54" begincolumn="28" endcolumn="51" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc" class="Calculation" method="Calculation" variable="firstArg" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'firstArg' is not assigned and could be declared final
+</violation>
+<violation beginline="54" endline="54" begincolumn="79" endcolumn="101" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc" class="Calculation" method="Calculation" variable="inverseFunction" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'inverseFunction' is not assigned and could be declared final
+</violation>
+<violation beginline="54" endline="54" begincolumn="54" endcolumn="76" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc" class="Calculation" method="Calculation" variable="operationType" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'operationType' is not assigned and could be declared final
+</violation>
+<violation beginline="66" endline="100" begincolumn="16" endcolumn="9" rule="CyclomaticComplexity" ruleset="Code Size" package="hr.fer.zemris.java.gui.calc" class="Calculation" method="getResult" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/codesize.html#CyclomaticComplexity" priority="3">
+The method 'getResult' has a Cyclomatic Complexity of 21.
+</violation>
+<violation beginline="66" endline="100" begincolumn="16" endcolumn="9" rule="StdCyclomaticComplexity" ruleset="Code Size" package="hr.fer.zemris.java.gui.calc" class="Calculation" method="getResult" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/codesize.html#StdCyclomaticComplexity" priority="3">
+The method 'getResult' has a Standard Cyclomatic Complexity of 21.
+</violation>
+<violation beginline="68" endline="74" begincolumn="17" endcolumn="17" rule="SwitchStmtsShouldHaveDefault" ruleset="Design" package="hr.fer.zemris.java.gui.calc" class="Calculation" method="getResult" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/design.html#SwitchStmtsShouldHaveDefault" priority="3">
+Switch statements should have a default label
+</violation>
+<violation beginline="69" endline="69" begincolumn="49" endcolumn="119" rule="OnlyOneReturn" ruleset="Controversial" package="hr.fer.zemris.java.gui.calc" class="Calculation" method="getResult" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#OnlyOneReturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="70" endline="70" begincolumn="49" endcolumn="119" rule="OnlyOneReturn" ruleset="Controversial" package="hr.fer.zemris.java.gui.calc" class="Calculation" method="getResult" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#OnlyOneReturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="71" endline="71" begincolumn="49" endcolumn="119" rule="OnlyOneReturn" ruleset="Controversial" package="hr.fer.zemris.java.gui.calc" class="Calculation" method="getResult" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#OnlyOneReturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="72" endline="72" begincolumn="41" endcolumn="111" rule="OnlyOneReturn" ruleset="Controversial" package="hr.fer.zemris.java.gui.calc" class="Calculation" method="getResult" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#OnlyOneReturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="73" endline="73" begincolumn="41" endcolumn="99" rule="OnlyOneReturn" ruleset="Controversial" package="hr.fer.zemris.java.gui.calc" class="Calculation" method="getResult" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#OnlyOneReturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="76" endline="99" begincolumn="17" endcolumn="17" rule="ConfusingTernary" ruleset="Design" package="hr.fer.zemris.java.gui.calc" class="Calculation" method="getResult" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/design.html#ConfusingTernary" priority="3">
+Avoid if (x != y) ..; else ..;
+</violation>
+<violation beginline="78" endline="78" begincolumn="65" endcolumn="131" rule="OnlyOneReturn" ruleset="Controversial" package="hr.fer.zemris.java.gui.calc" class="Calculation" method="getResult" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#OnlyOneReturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="79" endline="79" begincolumn="65" endcolumn="131" rule="OnlyOneReturn" ruleset="Controversial" package="hr.fer.zemris.java.gui.calc" class="Calculation" method="getResult" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#OnlyOneReturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="80" endline="80" begincolumn="65" endcolumn="131" rule="OnlyOneReturn" ruleset="Controversial" package="hr.fer.zemris.java.gui.calc" class="Calculation" method="getResult" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#OnlyOneReturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="81" endline="81" begincolumn="65" endcolumn="133" rule="OnlyOneReturn" ruleset="Controversial" package="hr.fer.zemris.java.gui.calc" class="Calculation" method="getResult" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#OnlyOneReturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="82" endline="82" begincolumn="65" endcolumn="133" rule="OnlyOneReturn" ruleset="Controversial" package="hr.fer.zemris.java.gui.calc" class="Calculation" method="getResult" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#OnlyOneReturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="83" endline="83" begincolumn="65" endcolumn="131" rule="OnlyOneReturn" ruleset="Controversial" package="hr.fer.zemris.java.gui.calc" class="Calculation" method="getResult" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#OnlyOneReturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="84" endline="84" begincolumn="57" endcolumn="138" rule="OnlyOneReturn" ruleset="Controversial" package="hr.fer.zemris.java.gui.calc" class="Calculation" method="getResult" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#OnlyOneReturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="85" endline="85" begincolumn="65" endcolumn="76" rule="OnlyOneReturn" ruleset="Controversial" package="hr.fer.zemris.java.gui.calc" class="Calculation" method="getResult" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#OnlyOneReturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="90" endline="90" begincolumn="65" endcolumn="132" rule="OnlyOneReturn" ruleset="Controversial" package="hr.fer.zemris.java.gui.calc" class="Calculation" method="getResult" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#OnlyOneReturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="91" endline="91" begincolumn="65" endcolumn="132" rule="OnlyOneReturn" ruleset="Controversial" package="hr.fer.zemris.java.gui.calc" class="Calculation" method="getResult" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#OnlyOneReturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="92" endline="92" begincolumn="65" endcolumn="132" rule="OnlyOneReturn" ruleset="Controversial" package="hr.fer.zemris.java.gui.calc" class="Calculation" method="getResult" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#OnlyOneReturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="93" endline="93" begincolumn="65" endcolumn="134" rule="OnlyOneReturn" ruleset="Controversial" package="hr.fer.zemris.java.gui.calc" class="Calculation" method="getResult" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#OnlyOneReturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="94" endline="94" begincolumn="65" endcolumn="135" rule="OnlyOneReturn" ruleset="Controversial" package="hr.fer.zemris.java.gui.calc" class="Calculation" method="getResult" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#OnlyOneReturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="95" endline="95" begincolumn="65" endcolumn="139" rule="OnlyOneReturn" ruleset="Controversial" package="hr.fer.zemris.java.gui.calc" class="Calculation" method="getResult" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#OnlyOneReturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="96" endline="96" begincolumn="57" endcolumn="139" rule="OnlyOneReturn" ruleset="Controversial" package="hr.fer.zemris.java.gui.calc" class="Calculation" method="getResult" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#OnlyOneReturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+</file>
+<file name="C:\Users\Vili\workspaceZaJavaTecaj\calculator\src\main\java\hr\fer\zemris\java\gui\calc\Calculator.java">
+<violation beginline="39" endline="294" begincolumn="40" endcolumn="1" rule="TooManyMethods" ruleset="Code Size" package="hr.fer.zemris.java.gui.calc" class="Calculator" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/codesize.html#TooManyMethods" priority="3">
+This class has too many methods, consider refactoring it.
+</violation>
+<violation beginline="44" endline="44" begincolumn="35" endcolumn="39" rule="ImmutableField" ruleset="Design" package="hr.fer.zemris.java.gui.calc" class="Calculator" variable="stack" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/design.html#ImmutableField" priority="3">
+Private field 'stack' could be made final; it is only initialized in the declaration or constructor.
+</violation>
+<violation beginline="49" endline="49" begincolumn="40" endcolumn="52" rule="ImmutableField" ruleset="Design" package="hr.fer.zemris.java.gui.calc" class="Calculator" variable="stackAsMemory" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/design.html#ImmutableField" priority="3">
+Private field 'stackAsMemory' could be made final; it is only initialized in the declaration or constructor.
+</violation>
+<violation beginline="64" endline="64" begincolumn="17" endcolumn="41" rule="AvoidFieldNameMatchingMethodName" ruleset="Naming" package="hr.fer.zemris.java.gui.calc" class="Calculator" variable="pendingOperation" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/naming.html#AvoidFieldNameMatchingMethodName" priority="3">
+Field pendingOperation has the same name as a method
+</violation>
+<violation beginline="79" endline="89" begincolumn="16" endcolumn="9" rule="CallSuperInConstructor" ruleset="Controversial" package="hr.fer.zemris.java.gui.calc" class="Calculator" method="Calculator" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#CallSuperInConstructor" priority="3">
+It is a good practice to call super() in a constructor
+</violation>
+<violation beginline="94" endline="213" begincolumn="17" endcolumn="9" rule="ExcessiveMethodLength" ruleset="Code Size" package="hr.fer.zemris.java.gui.calc" class="Calculator" method="initGUI" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/codesize.html#ExcessiveMethodLength" priority="3">
+Avoid really long methods.
+</violation>
+<violation beginline="94" endline="205" begincolumn="41" endcolumn="66" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="hr.fer.zemris.java.gui.calc" class="Calculator" method="mouseClicked" variable="func" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'UR'-anomaly for variable 'func' (lines '94'-'205').
+</violation>
+<violation beginline="94" endline="205" begincolumn="41" endcolumn="66" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="hr.fer.zemris.java.gui.calc" class="Calculator" method="mouseClicked" variable="func" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'UR'-anomaly for variable 'func' (lines '94'-'205').
+</violation>
+<violation beginline="94" endline="205" begincolumn="41" endcolumn="66" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="hr.fer.zemris.java.gui.calc" class="Calculator" method="mouseClicked" variable="func" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'UR'-anomaly for variable 'func' (lines '94'-'205').
+</violation>
+<violation beginline="94" endline="205" begincolumn="41" endcolumn="66" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="hr.fer.zemris.java.gui.calc" class="Calculator" method="mouseClicked" variable="func" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'UR'-anomaly for variable 'func' (lines '94'-'205').
+</violation>
+<violation beginline="94" endline="205" begincolumn="41" endcolumn="66" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="hr.fer.zemris.java.gui.calc" class="Calculator" method="mouseClicked" variable="func" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'UR'-anomaly for variable 'func' (lines '94'-'205').
+</violation>
+<violation beginline="94" endline="205" begincolumn="41" endcolumn="66" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="hr.fer.zemris.java.gui.calc" class="Calculator" method="mouseClicked" variable="func" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'UR'-anomaly for variable 'func' (lines '94'-'205').
+</violation>
+<violation beginline="110" endline="113" begincolumn="17" endcolumn="36" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="hr.fer.zemris.java.gui.calc" class="Calculator" method="initGUI" variable="funcButtons" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'funcButtons' (lines '110'-'113').
+</violation>
+<violation beginline="110" endline="113" begincolumn="17" endcolumn="36" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="hr.fer.zemris.java.gui.calc" class="Calculator" method="initGUI" variable="funcButtons" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'funcButtons' (lines '110'-'113').
+</violation>
+<violation beginline="110" endline="113" begincolumn="17" endcolumn="36" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="hr.fer.zemris.java.gui.calc" class="Calculator" method="initGUI" variable="funcButtons" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'funcButtons' (lines '110'-'113').
+</violation>
+<violation beginline="110" endline="113" begincolumn="17" endcolumn="36" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="hr.fer.zemris.java.gui.calc" class="Calculator" method="initGUI" variable="funcButtons" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'funcButtons' (lines '110'-'113').
+</violation>
+<violation beginline="110" endline="113" begincolumn="17" endcolumn="36" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="hr.fer.zemris.java.gui.calc" class="Calculator" method="initGUI" variable="funcButtons" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'funcButtons' (lines '110'-'113').
+</violation>
+<violation beginline="110" endline="113" begincolumn="17" endcolumn="36" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="hr.fer.zemris.java.gui.calc" class="Calculator" method="initGUI" variable="funcButtons" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'funcButtons' (lines '110'-'113').
+</violation>
+<violation beginline="112" endline="112" begincolumn="17" endcolumn="91" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc" class="Calculator" method="initGUI" variable="sin" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'sin' could be declared final
+</violation>
+<violation beginline="113" endline="117" begincolumn="17" endcolumn="36" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="hr.fer.zemris.java.gui.calc" class="Calculator" method="initGUI" variable="funcButtons" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'funcButtons' (lines '113'-'117').
+</violation>
+<violation beginline="113" endline="117" begincolumn="17" endcolumn="36" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="hr.fer.zemris.java.gui.calc" class="Calculator" method="initGUI" variable="funcButtons" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'funcButtons' (lines '113'-'117').
+</violation>
+<violation beginline="113" endline="117" begincolumn="17" endcolumn="36" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="hr.fer.zemris.java.gui.calc" class="Calculator" method="initGUI" variable="funcButtons" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'funcButtons' (lines '113'-'117').
+</violation>
+<violation beginline="113" endline="117" begincolumn="17" endcolumn="36" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="hr.fer.zemris.java.gui.calc" class="Calculator" method="initGUI" variable="funcButtons" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'funcButtons' (lines '113'-'117').
+</violation>
+<violation beginline="113" endline="117" begincolumn="17" endcolumn="36" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="hr.fer.zemris.java.gui.calc" class="Calculator" method="initGUI" variable="funcButtons" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'funcButtons' (lines '113'-'117').
+</violation>
+<violation beginline="113" endline="117" begincolumn="17" endcolumn="36" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="hr.fer.zemris.java.gui.calc" class="Calculator" method="initGUI" variable="funcButtons" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'funcButtons' (lines '113'-'117').
+</violation>
+<violation beginline="116" endline="116" begincolumn="17" endcolumn="97" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc" class="Calculator" method="initGUI" variable="rec" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'rec' could be declared final
+</violation>
+<violation beginline="117" endline="121" begincolumn="17" endcolumn="36" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="hr.fer.zemris.java.gui.calc" class="Calculator" method="initGUI" variable="funcButtons" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'funcButtons' (lines '117'-'121').
+</violation>
+<violation beginline="117" endline="121" begincolumn="17" endcolumn="36" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="hr.fer.zemris.java.gui.calc" class="Calculator" method="initGUI" variable="funcButtons" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'funcButtons' (lines '117'-'121').
+</violation>
+<violation beginline="117" endline="121" begincolumn="17" endcolumn="36" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="hr.fer.zemris.java.gui.calc" class="Calculator" method="initGUI" variable="funcButtons" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'funcButtons' (lines '117'-'121').
+</violation>
+<violation beginline="117" endline="121" begincolumn="17" endcolumn="36" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="hr.fer.zemris.java.gui.calc" class="Calculator" method="initGUI" variable="funcButtons" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'funcButtons' (lines '117'-'121').
+</violation>
+<violation beginline="117" endline="121" begincolumn="17" endcolumn="36" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="hr.fer.zemris.java.gui.calc" class="Calculator" method="initGUI" variable="funcButtons" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'funcButtons' (lines '117'-'121').
+</violation>
+<violation beginline="117" endline="121" begincolumn="17" endcolumn="36" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="hr.fer.zemris.java.gui.calc" class="Calculator" method="initGUI" variable="funcButtons" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'funcButtons' (lines '117'-'121').
+</violation>
+<violation beginline="120" endline="120" begincolumn="17" endcolumn="90" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc" class="Calculator" method="initGUI" variable="log" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'log' could be declared final
+</violation>
+<violation beginline="121" endline="125" begincolumn="17" endcolumn="35" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="hr.fer.zemris.java.gui.calc" class="Calculator" method="initGUI" variable="funcButtons" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'funcButtons' (lines '121'-'125').
+</violation>
+<violation beginline="121" endline="125" begincolumn="17" endcolumn="35" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="hr.fer.zemris.java.gui.calc" class="Calculator" method="initGUI" variable="funcButtons" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'funcButtons' (lines '121'-'125').
+</violation>
+<violation beginline="121" endline="125" begincolumn="17" endcolumn="35" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="hr.fer.zemris.java.gui.calc" class="Calculator" method="initGUI" variable="funcButtons" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'funcButtons' (lines '121'-'125').
+</violation>
+<violation beginline="121" endline="125" begincolumn="17" endcolumn="35" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="hr.fer.zemris.java.gui.calc" class="Calculator" method="initGUI" variable="funcButtons" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'funcButtons' (lines '121'-'125').
+</violation>
+<violation beginline="121" endline="125" begincolumn="17" endcolumn="35" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="hr.fer.zemris.java.gui.calc" class="Calculator" method="initGUI" variable="funcButtons" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'funcButtons' (lines '121'-'125').
+</violation>
+<violation beginline="121" endline="125" begincolumn="17" endcolumn="35" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="hr.fer.zemris.java.gui.calc" class="Calculator" method="initGUI" variable="funcButtons" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'funcButtons' (lines '121'-'125').
+</violation>
+<violation beginline="124" endline="124" begincolumn="32" endcolumn="33" rule="ShortVariable" ruleset="Naming" package="hr.fer.zemris.java.gui.calc" class="Calculator" method="initGUI" variable="ln" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like ln
+</violation>
+<violation beginline="124" endline="124" begincolumn="17" endcolumn="86" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc" class="Calculator" method="initGUI" variable="ln" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'ln' could be declared final
+</violation>
+<violation beginline="125" endline="129" begincolumn="17" endcolumn="37" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="hr.fer.zemris.java.gui.calc" class="Calculator" method="initGUI" variable="funcButtons" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'funcButtons' (lines '125'-'129').
+</violation>
+<violation beginline="125" endline="129" begincolumn="17" endcolumn="37" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="hr.fer.zemris.java.gui.calc" class="Calculator" method="initGUI" variable="funcButtons" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'funcButtons' (lines '125'-'129').
+</violation>
+<violation beginline="125" endline="129" begincolumn="17" endcolumn="37" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="hr.fer.zemris.java.gui.calc" class="Calculator" method="initGUI" variable="funcButtons" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'funcButtons' (lines '125'-'129').
+</violation>
+<violation beginline="125" endline="129" begincolumn="17" endcolumn="37" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="hr.fer.zemris.java.gui.calc" class="Calculator" method="initGUI" variable="funcButtons" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'funcButtons' (lines '125'-'129').
+</violation>
+<violation beginline="125" endline="129" begincolumn="17" endcolumn="37" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="hr.fer.zemris.java.gui.calc" class="Calculator" method="initGUI" variable="funcButtons" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'funcButtons' (lines '125'-'129').
+</violation>
+<violation beginline="125" endline="129" begincolumn="17" endcolumn="37" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="hr.fer.zemris.java.gui.calc" class="Calculator" method="initGUI" variable="funcButtons" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'funcButtons' (lines '125'-'129').
+</violation>
+<violation beginline="128" endline="128" begincolumn="17" endcolumn="99" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc" class="Calculator" method="initGUI" variable="nPow" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'nPow' could be declared final
+</violation>
+<violation beginline="129" endline="133" begincolumn="17" endcolumn="36" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="hr.fer.zemris.java.gui.calc" class="Calculator" method="initGUI" variable="funcButtons" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'funcButtons' (lines '129'-'133').
+</violation>
+<violation beginline="129" endline="133" begincolumn="17" endcolumn="36" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="hr.fer.zemris.java.gui.calc" class="Calculator" method="initGUI" variable="funcButtons" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'funcButtons' (lines '129'-'133').
+</violation>
+<violation beginline="129" endline="133" begincolumn="17" endcolumn="36" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="hr.fer.zemris.java.gui.calc" class="Calculator" method="initGUI" variable="funcButtons" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'funcButtons' (lines '129'-'133').
+</violation>
+<violation beginline="129" endline="133" begincolumn="17" endcolumn="36" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="hr.fer.zemris.java.gui.calc" class="Calculator" method="initGUI" variable="funcButtons" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'funcButtons' (lines '129'-'133').
+</violation>
+<violation beginline="129" endline="133" begincolumn="17" endcolumn="36" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="hr.fer.zemris.java.gui.calc" class="Calculator" method="initGUI" variable="funcButtons" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'funcButtons' (lines '129'-'133').
+</violation>
+<violation beginline="129" endline="133" begincolumn="17" endcolumn="36" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="hr.fer.zemris.java.gui.calc" class="Calculator" method="initGUI" variable="funcButtons" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'funcButtons' (lines '129'-'133').
+</violation>
+<violation beginline="132" endline="132" begincolumn="17" endcolumn="91" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc" class="Calculator" method="initGUI" variable="cos" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'cos' could be declared final
+</violation>
+<violation beginline="133" endline="137" begincolumn="17" endcolumn="36" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="hr.fer.zemris.java.gui.calc" class="Calculator" method="initGUI" variable="funcButtons" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'funcButtons' (lines '133'-'137').
+</violation>
+<violation beginline="133" endline="137" begincolumn="17" endcolumn="36" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="hr.fer.zemris.java.gui.calc" class="Calculator" method="initGUI" variable="funcButtons" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'funcButtons' (lines '133'-'137').
+</violation>
+<violation beginline="133" endline="137" begincolumn="17" endcolumn="36" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="hr.fer.zemris.java.gui.calc" class="Calculator" method="initGUI" variable="funcButtons" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'funcButtons' (lines '133'-'137').
+</violation>
+<violation beginline="133" endline="137" begincolumn="17" endcolumn="36" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="hr.fer.zemris.java.gui.calc" class="Calculator" method="initGUI" variable="funcButtons" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'funcButtons' (lines '133'-'137').
+</violation>
+<violation beginline="133" endline="137" begincolumn="17" endcolumn="36" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="hr.fer.zemris.java.gui.calc" class="Calculator" method="initGUI" variable="funcButtons" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'funcButtons' (lines '133'-'137').
+</violation>
+<violation beginline="133" endline="137" begincolumn="17" endcolumn="36" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="hr.fer.zemris.java.gui.calc" class="Calculator" method="initGUI" variable="funcButtons" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'funcButtons' (lines '133'-'137').
+</violation>
+<violation beginline="136" endline="136" begincolumn="17" endcolumn="91" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc" class="Calculator" method="initGUI" variable="tan" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'tan' could be declared final
+</violation>
+<violation beginline="137" endline="141" begincolumn="17" endcolumn="36" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="hr.fer.zemris.java.gui.calc" class="Calculator" method="initGUI" variable="funcButtons" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'funcButtons' (lines '137'-'141').
+</violation>
+<violation beginline="137" endline="141" begincolumn="17" endcolumn="36" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="hr.fer.zemris.java.gui.calc" class="Calculator" method="initGUI" variable="funcButtons" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'funcButtons' (lines '137'-'141').
+</violation>
+<violation beginline="137" endline="141" begincolumn="17" endcolumn="36" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="hr.fer.zemris.java.gui.calc" class="Calculator" method="initGUI" variable="funcButtons" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'funcButtons' (lines '137'-'141').
+</violation>
+<violation beginline="137" endline="141" begincolumn="17" endcolumn="36" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="hr.fer.zemris.java.gui.calc" class="Calculator" method="initGUI" variable="funcButtons" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'funcButtons' (lines '137'-'141').
+</violation>
+<violation beginline="137" endline="141" begincolumn="17" endcolumn="36" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="hr.fer.zemris.java.gui.calc" class="Calculator" method="initGUI" variable="funcButtons" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'funcButtons' (lines '137'-'141').
+</violation>
+<violation beginline="137" endline="141" begincolumn="17" endcolumn="36" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="hr.fer.zemris.java.gui.calc" class="Calculator" method="initGUI" variable="funcButtons" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'funcButtons' (lines '137'-'141').
+</violation>
+<violation beginline="140" endline="140" begincolumn="17" endcolumn="91" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc" class="Calculator" method="initGUI" variable="ctg" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'ctg' could be declared final
+</violation>
+<violation beginline="186" endline="186" begincolumn="62" endcolumn="62" rule="ShortVariable" ruleset="Naming" package="hr.fer.zemris.java.gui.calc" class="Calculator" method="mouseReleased" variable="e" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like e
+</violation>
+<violation beginline="186" endline="187" begincolumn="65" endcolumn="25" rule="UncommentedEmptyMethod" ruleset="Design" package="hr.fer.zemris.java.gui.calc" class="Calculator" method="mouseReleased" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/design.html#UncommentedEmptyMethod" priority="3">
+Document empty method
+</violation>
+<violation beginline="186" endline="186" begincolumn="51" endcolumn="62" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc" class="Calculator" method="mouseReleased" variable="e" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'e' is not assigned and could be declared final
+</violation>
+<violation beginline="190" endline="190" begincolumn="61" endcolumn="61" rule="ShortVariable" ruleset="Naming" package="hr.fer.zemris.java.gui.calc" class="Calculator" method="mousePressed" variable="e" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like e
+</violation>
+<violation beginline="190" endline="191" begincolumn="64" endcolumn="25" rule="UncommentedEmptyMethod" ruleset="Design" package="hr.fer.zemris.java.gui.calc" class="Calculator" method="mousePressed" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/design.html#UncommentedEmptyMethod" priority="3">
+Document empty method
+</violation>
+<violation beginline="190" endline="190" begincolumn="50" endcolumn="61" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc" class="Calculator" method="mousePressed" variable="e" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'e' is not assigned and could be declared final
+</violation>
+<violation beginline="194" endline="194" begincolumn="60" endcolumn="60" rule="ShortVariable" ruleset="Naming" package="hr.fer.zemris.java.gui.calc" class="Calculator" method="mouseExited" variable="e" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like e
+</violation>
+<violation beginline="194" endline="195" begincolumn="63" endcolumn="25" rule="UncommentedEmptyMethod" ruleset="Design" package="hr.fer.zemris.java.gui.calc" class="Calculator" method="mouseExited" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/design.html#UncommentedEmptyMethod" priority="3">
+Document empty method
+</violation>
+<violation beginline="194" endline="194" begincolumn="49" endcolumn="60" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc" class="Calculator" method="mouseExited" variable="e" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'e' is not assigned and could be declared final
+</violation>
+<violation beginline="198" endline="198" begincolumn="61" endcolumn="61" rule="ShortVariable" ruleset="Naming" package="hr.fer.zemris.java.gui.calc" class="Calculator" method="mouseEntered" variable="e" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like e
+</violation>
+<violation beginline="198" endline="199" begincolumn="64" endcolumn="25" rule="UncommentedEmptyMethod" ruleset="Design" package="hr.fer.zemris.java.gui.calc" class="Calculator" method="mouseEntered" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/design.html#UncommentedEmptyMethod" priority="3">
+Document empty method
+</violation>
+<violation beginline="198" endline="198" begincolumn="50" endcolumn="61" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc" class="Calculator" method="mouseEntered" variable="e" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'e' is not assigned and could be declared final
+</violation>
+<violation beginline="202" endline="202" begincolumn="61" endcolumn="61" rule="ShortVariable" ruleset="Naming" package="hr.fer.zemris.java.gui.calc" class="Calculator" method="mouseClicked" variable="e" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like e
+</violation>
+<violation beginline="202" endline="202" begincolumn="50" endcolumn="61" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc" class="Calculator" method="mouseClicked" variable="e" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'e' is not assigned and could be declared final
+</violation>
+<violation beginline="203" endline="203" begincolumn="49" endcolumn="62" rule="BooleanInversion" ruleset="Controversial" package="hr.fer.zemris.java.gui.calc" class="Calculator" method="mouseClicked" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#BooleanInversion" priority="3">
+Use bitwise inversion to invert boolean values
+</violation>
+<violation beginline="204" endline="204" begincolumn="37" endcolumn="55" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc" class="Calculator" method="mouseClicked" variable="func" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'func' could be declared final
+</violation>
+<violation beginline="219" endline="219" begincolumn="33" endcolumn="45" rule="UseVarargs" ruleset="Design" package="hr.fer.zemris.java.gui.calc" class="Calculator" method="main" variable="args" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/design.html#UseVarargs" priority="4">
+Consider using varargs for methods or constructors which take an array the last parameter.
+</violation>
+<violation beginline="219" endline="219" begincolumn="33" endcolumn="45" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc" class="Calculator" method="main" variable="args" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'args' is not assigned and could be declared final
+</violation>
+<violation beginline="221" endline="221" begincolumn="25" endcolumn="55" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc" class="Calculator" method="main" variable="frame" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'frame' could be declared final
+</violation>
+<violation beginline="241" endline="241" begincolumn="25" endcolumn="31" rule="OnlyOneReturn" ruleset="Controversial" package="hr.fer.zemris.java.gui.calc" class="Calculator" method="updateScreen" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#OnlyOneReturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="243" endline="243" begincolumn="17" endcolumn="46" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc" class="Calculator" method="updateScreen" variable="peek" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'peek' could be declared final
+</violation>
+<violation beginline="249" endline="249" begincolumn="25" endcolumn="94" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc" class="Calculator" method="updateScreen" variable="numCon" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'numCon' could be declared final
+</violation>
+<violation beginline="266" endline="266" begincolumn="41" endcolumn="53" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc" class="Calculator" method="setPendingOperation" variable="state" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'state' is not assigned and could be declared final
+</violation>
+</file>
+<file name="C:\Users\Vili\workspaceZaJavaTecaj\calculator\src\main\java\hr\fer\zemris\java\gui\calc\buttons\ChangeButton.java">
+<violation beginline="31" endline="39" begincolumn="16" endcolumn="9" rule="CallSuperInConstructor" ruleset="Controversial" package="hr.fer.zemris.java.gui.calc.buttons" class="ChangeButton" method="ChangeButton" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#CallSuperInConstructor" priority="3">
+It is a good practice to call super() in a constructor
+</violation>
+<violation beginline="31" endline="31" begincolumn="29" endcolumn="41" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc.buttons" class="ChangeButton" method="ChangeButton" variable="change" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'change' is not assigned and could be declared final
+</violation>
+<violation beginline="31" endline="31" begincolumn="44" endcolumn="60" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc.buttons" class="ChangeButton" method="ChangeButton" variable="parent" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'parent' is not assigned and could be declared final
+</violation>
+<violation beginline="51" endline="51" begincolumn="36" endcolumn="41" rule="ImmutableField" ruleset="Design" package="hr.fer.zemris.java.gui.calc.buttons" class="ChangeButton$ChangeListener" variable="parent" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/design.html#ImmutableField" priority="3">
+Private field 'parent' could be made final; it is only initialized in the declaration or constructor.
+</violation>
+<violation beginline="57" endline="57" begincolumn="39" endcolumn="55" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc.buttons" class="ChangeButton$ChangeListener" method="ChangeListener" variable="parent" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'parent' is not assigned and could be declared final
+</violation>
+<violation beginline="62" endline="62" begincolumn="53" endcolumn="53" rule="ShortVariable" ruleset="Naming" package="hr.fer.zemris.java.gui.calc.buttons" class="ChangeButton$ChangeListener" method="mouseClicked" variable="e" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like e
+</violation>
+<violation beginline="62" endline="62" begincolumn="42" endcolumn="53" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc.buttons" class="ChangeButton$ChangeListener" method="mouseClicked" variable="e" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'e' is not assigned and could be declared final
+</violation>
+<violation beginline="65" endline="65" begincolumn="33" endcolumn="39" rule="OnlyOneReturn" ruleset="Controversial" package="hr.fer.zemris.java.gui.calc.buttons" class="ChangeButton$ChangeListener" method="mouseClicked" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#OnlyOneReturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="67" endline="67" begincolumn="25" endcolumn="70" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc.buttons" class="ChangeButton$ChangeListener" method="mouseClicked" variable="peekElem" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'peekElem' could be declared final
+</violation>
+<violation beginline="69" endline="69" begincolumn="33" endcolumn="39" rule="OnlyOneReturn" ruleset="Controversial" package="hr.fer.zemris.java.gui.calc.buttons" class="ChangeButton$ChangeListener" method="mouseClicked" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#OnlyOneReturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="72" endline="72" begincolumn="33" endcolumn="89" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc.buttons" class="ChangeButton$ChangeListener" method="mouseClicked" variable="numberOnPeek" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'numberOnPeek' could be declared final
+</violation>
+<violation beginline="80" endline="80" begincolumn="53" endcolumn="53" rule="ShortVariable" ruleset="Naming" package="hr.fer.zemris.java.gui.calc.buttons" class="ChangeButton$ChangeListener" method="mousePressed" variable="e" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like e
+</violation>
+<violation beginline="80" endline="81" begincolumn="56" endcolumn="17" rule="UncommentedEmptyMethod" ruleset="Design" package="hr.fer.zemris.java.gui.calc.buttons" class="ChangeButton$ChangeListener" method="mousePressed" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/design.html#UncommentedEmptyMethod" priority="3">
+Document empty method
+</violation>
+<violation beginline="80" endline="80" begincolumn="42" endcolumn="53" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc.buttons" class="ChangeButton$ChangeListener" method="mousePressed" variable="e" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'e' is not assigned and could be declared final
+</violation>
+<violation beginline="84" endline="84" begincolumn="54" endcolumn="54" rule="ShortVariable" ruleset="Naming" package="hr.fer.zemris.java.gui.calc.buttons" class="ChangeButton$ChangeListener" method="mouseReleased" variable="e" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like e
+</violation>
+<violation beginline="84" endline="85" begincolumn="57" endcolumn="17" rule="UncommentedEmptyMethod" ruleset="Design" package="hr.fer.zemris.java.gui.calc.buttons" class="ChangeButton$ChangeListener" method="mouseReleased" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/design.html#UncommentedEmptyMethod" priority="3">
+Document empty method
+</violation>
+<violation beginline="84" endline="84" begincolumn="43" endcolumn="54" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc.buttons" class="ChangeButton$ChangeListener" method="mouseReleased" variable="e" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'e' is not assigned and could be declared final
+</violation>
+<violation beginline="88" endline="88" begincolumn="53" endcolumn="53" rule="ShortVariable" ruleset="Naming" package="hr.fer.zemris.java.gui.calc.buttons" class="ChangeButton$ChangeListener" method="mouseEntered" variable="e" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like e
+</violation>
+<violation beginline="88" endline="89" begincolumn="56" endcolumn="17" rule="UncommentedEmptyMethod" ruleset="Design" package="hr.fer.zemris.java.gui.calc.buttons" class="ChangeButton$ChangeListener" method="mouseEntered" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/design.html#UncommentedEmptyMethod" priority="3">
+Document empty method
+</violation>
+<violation beginline="88" endline="88" begincolumn="42" endcolumn="53" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc.buttons" class="ChangeButton$ChangeListener" method="mouseEntered" variable="e" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'e' is not assigned and could be declared final
+</violation>
+<violation beginline="92" endline="92" begincolumn="52" endcolumn="52" rule="ShortVariable" ruleset="Naming" package="hr.fer.zemris.java.gui.calc.buttons" class="ChangeButton$ChangeListener" method="mouseExited" variable="e" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like e
+</violation>
+<violation beginline="92" endline="93" begincolumn="55" endcolumn="17" rule="UncommentedEmptyMethod" ruleset="Design" package="hr.fer.zemris.java.gui.calc.buttons" class="ChangeButton$ChangeListener" method="mouseExited" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/design.html#UncommentedEmptyMethod" priority="3">
+Document empty method
+</violation>
+<violation beginline="92" endline="92" begincolumn="41" endcolumn="52" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc.buttons" class="ChangeButton$ChangeListener" method="mouseExited" variable="e" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'e' is not assigned and could be declared final
+</violation>
+</file>
+<file name="C:\Users\Vili\workspaceZaJavaTecaj\calculator\src\main\java\hr\fer\zemris\java\gui\calc\buttons\ClearButton.java">
+<violation beginline="34" endline="42" begincolumn="16" endcolumn="9" rule="CallSuperInConstructor" ruleset="Controversial" package="hr.fer.zemris.java.gui.calc.buttons" class="ClearButton" method="ClearButton" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#CallSuperInConstructor" priority="3">
+It is a good practice to call super() in a constructor
+</violation>
+<violation beginline="34" endline="34" begincolumn="28" endcolumn="38" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc.buttons" class="ClearButton" method="ClearButton" variable="name" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'name' is not assigned and could be declared final
+</violation>
+<violation beginline="34" endline="34" begincolumn="41" endcolumn="57" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc.buttons" class="ClearButton" method="ClearButton" variable="parent" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'parent' is not assigned and could be declared final
+</violation>
+<violation beginline="54" endline="54" begincolumn="36" endcolumn="41" rule="ImmutableField" ruleset="Design" package="hr.fer.zemris.java.gui.calc.buttons" class="ClearButton$ClearListener" variable="parent" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/design.html#ImmutableField" priority="3">
+Private field 'parent' could be made final; it is only initialized in the declaration or constructor.
+</violation>
+<violation beginline="60" endline="60" begincolumn="38" endcolumn="54" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc.buttons" class="ClearButton$ClearListener" method="ClearListener" variable="parent" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'parent' is not assigned and could be declared final
+</violation>
+<violation beginline="66" endline="66" begincolumn="53" endcolumn="53" rule="ShortVariable" ruleset="Naming" package="hr.fer.zemris.java.gui.calc.buttons" class="ClearButton$ClearListener" method="mouseClicked" variable="e" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like e
+</violation>
+<violation beginline="66" endline="66" begincolumn="42" endcolumn="53" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc.buttons" class="ClearButton$ClearListener" method="mouseClicked" variable="e" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'e' is not assigned and could be declared final
+</violation>
+<violation beginline="69" endline="69" begincolumn="33" endcolumn="39" rule="OnlyOneReturn" ruleset="Controversial" package="hr.fer.zemris.java.gui.calc.buttons" class="ClearButton$ClearListener" method="mouseClicked" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#OnlyOneReturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="71" endline="71" begincolumn="25" endcolumn="70" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc.buttons" class="ClearButton$ClearListener" method="mouseClicked" variable="peekElem" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'peekElem' could be declared final
+</violation>
+<violation beginline="92" endline="92" begincolumn="53" endcolumn="53" rule="ShortVariable" ruleset="Naming" package="hr.fer.zemris.java.gui.calc.buttons" class="ClearButton$ClearListener" method="mousePressed" variable="e" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like e
+</violation>
+<violation beginline="92" endline="93" begincolumn="56" endcolumn="17" rule="UncommentedEmptyMethod" ruleset="Design" package="hr.fer.zemris.java.gui.calc.buttons" class="ClearButton$ClearListener" method="mousePressed" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/design.html#UncommentedEmptyMethod" priority="3">
+Document empty method
+</violation>
+<violation beginline="92" endline="92" begincolumn="42" endcolumn="53" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc.buttons" class="ClearButton$ClearListener" method="mousePressed" variable="e" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'e' is not assigned and could be declared final
+</violation>
+<violation beginline="96" endline="96" begincolumn="54" endcolumn="54" rule="ShortVariable" ruleset="Naming" package="hr.fer.zemris.java.gui.calc.buttons" class="ClearButton$ClearListener" method="mouseReleased" variable="e" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like e
+</violation>
+<violation beginline="96" endline="97" begincolumn="57" endcolumn="17" rule="UncommentedEmptyMethod" ruleset="Design" package="hr.fer.zemris.java.gui.calc.buttons" class="ClearButton$ClearListener" method="mouseReleased" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/design.html#UncommentedEmptyMethod" priority="3">
+Document empty method
+</violation>
+<violation beginline="96" endline="96" begincolumn="43" endcolumn="54" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc.buttons" class="ClearButton$ClearListener" method="mouseReleased" variable="e" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'e' is not assigned and could be declared final
+</violation>
+<violation beginline="100" endline="100" begincolumn="53" endcolumn="53" rule="ShortVariable" ruleset="Naming" package="hr.fer.zemris.java.gui.calc.buttons" class="ClearButton$ClearListener" method="mouseEntered" variable="e" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like e
+</violation>
+<violation beginline="100" endline="101" begincolumn="56" endcolumn="17" rule="UncommentedEmptyMethod" ruleset="Design" package="hr.fer.zemris.java.gui.calc.buttons" class="ClearButton$ClearListener" method="mouseEntered" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/design.html#UncommentedEmptyMethod" priority="3">
+Document empty method
+</violation>
+<violation beginline="100" endline="100" begincolumn="42" endcolumn="53" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc.buttons" class="ClearButton$ClearListener" method="mouseEntered" variable="e" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'e' is not assigned and could be declared final
+</violation>
+<violation beginline="104" endline="104" begincolumn="52" endcolumn="52" rule="ShortVariable" ruleset="Naming" package="hr.fer.zemris.java.gui.calc.buttons" class="ClearButton$ClearListener" method="mouseExited" variable="e" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like e
+</violation>
+<violation beginline="104" endline="105" begincolumn="55" endcolumn="17" rule="UncommentedEmptyMethod" ruleset="Design" package="hr.fer.zemris.java.gui.calc.buttons" class="ClearButton$ClearListener" method="mouseExited" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/design.html#UncommentedEmptyMethod" priority="3">
+Document empty method
+</violation>
+<violation beginline="104" endline="104" begincolumn="41" endcolumn="52" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc.buttons" class="ClearButton$ClearListener" method="mouseExited" variable="e" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'e' is not assigned and could be declared final
+</violation>
+</file>
+<file name="C:\Users\Vili\workspaceZaJavaTecaj\calculator\src\main\java\hr\fer\zemris\java\gui\calc\buttons\DecimalDotButton.java">
+<violation beginline="32" endline="40" begincolumn="16" endcolumn="9" rule="CallSuperInConstructor" ruleset="Controversial" package="hr.fer.zemris.java.gui.calc.buttons" class="DecimalDotButton" method="DecimalDotButton" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#CallSuperInConstructor" priority="3">
+It is a good practice to call super() in a constructor
+</violation>
+<violation beginline="32" endline="32" begincolumn="33" endcolumn="49" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc.buttons" class="DecimalDotButton" method="DecimalDotButton" variable="decimalDot" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'decimalDot' is not assigned and could be declared final
+</violation>
+<violation beginline="32" endline="32" begincolumn="52" endcolumn="68" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc.buttons" class="DecimalDotButton" method="DecimalDotButton" variable="parent" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'parent' is not assigned and could be declared final
+</violation>
+<violation beginline="52" endline="52" begincolumn="36" endcolumn="41" rule="ImmutableField" ruleset="Design" package="hr.fer.zemris.java.gui.calc.buttons" class="DecimalDotButton$DecimalDotListener" variable="parent" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/design.html#ImmutableField" priority="3">
+Private field 'parent' could be made final; it is only initialized in the declaration or constructor.
+</violation>
+<violation beginline="58" endline="58" begincolumn="43" endcolumn="59" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc.buttons" class="DecimalDotButton$DecimalDotListener" method="DecimalDotListener" variable="parent" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'parent' is not assigned and could be declared final
+</violation>
+<violation beginline="63" endline="63" begincolumn="53" endcolumn="53" rule="ShortVariable" ruleset="Naming" package="hr.fer.zemris.java.gui.calc.buttons" class="DecimalDotButton$DecimalDotListener" method="mouseClicked" variable="e" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like e
+</violation>
+<violation beginline="63" endline="63" begincolumn="42" endcolumn="53" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc.buttons" class="DecimalDotButton$DecimalDotListener" method="mouseClicked" variable="e" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'e' is not assigned and could be declared final
+</violation>
+<violation beginline="69" endline="69" begincolumn="25" endcolumn="70" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc.buttons" class="DecimalDotButton$DecimalDotListener" method="mouseClicked" variable="peekElem" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'peekElem' could be declared final
+</violation>
+<violation beginline="71" endline="71" begincolumn="33" endcolumn="89" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc.buttons" class="DecimalDotButton$DecimalDotListener" method="mouseClicked" variable="numberOnPeek" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'numberOnPeek' could be declared final
+</violation>
+<violation beginline="74" endline="74" begincolumn="33" endcolumn="39" rule="OnlyOneReturn" ruleset="Controversial" package="hr.fer.zemris.java.gui.calc.buttons" class="DecimalDotButton$DecimalDotListener" method="mouseClicked" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#OnlyOneReturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="80" endline="80" begincolumn="33" endcolumn="85" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc.buttons" class="DecimalDotButton$DecimalDotListener" method="mouseClicked" variable="newNumCon" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'newNumCon' could be declared final
+</violation>
+<violation beginline="88" endline="88" begincolumn="53" endcolumn="53" rule="ShortVariable" ruleset="Naming" package="hr.fer.zemris.java.gui.calc.buttons" class="DecimalDotButton$DecimalDotListener" method="mousePressed" variable="e" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like e
+</violation>
+<violation beginline="88" endline="89" begincolumn="56" endcolumn="17" rule="UncommentedEmptyMethod" ruleset="Design" package="hr.fer.zemris.java.gui.calc.buttons" class="DecimalDotButton$DecimalDotListener" method="mousePressed" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/design.html#UncommentedEmptyMethod" priority="3">
+Document empty method
+</violation>
+<violation beginline="88" endline="88" begincolumn="42" endcolumn="53" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc.buttons" class="DecimalDotButton$DecimalDotListener" method="mousePressed" variable="e" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'e' is not assigned and could be declared final
+</violation>
+<violation beginline="92" endline="92" begincolumn="54" endcolumn="54" rule="ShortVariable" ruleset="Naming" package="hr.fer.zemris.java.gui.calc.buttons" class="DecimalDotButton$DecimalDotListener" method="mouseReleased" variable="e" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like e
+</violation>
+<violation beginline="92" endline="93" begincolumn="57" endcolumn="17" rule="UncommentedEmptyMethod" ruleset="Design" package="hr.fer.zemris.java.gui.calc.buttons" class="DecimalDotButton$DecimalDotListener" method="mouseReleased" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/design.html#UncommentedEmptyMethod" priority="3">
+Document empty method
+</violation>
+<violation beginline="92" endline="92" begincolumn="43" endcolumn="54" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc.buttons" class="DecimalDotButton$DecimalDotListener" method="mouseReleased" variable="e" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'e' is not assigned and could be declared final
+</violation>
+<violation beginline="96" endline="96" begincolumn="53" endcolumn="53" rule="ShortVariable" ruleset="Naming" package="hr.fer.zemris.java.gui.calc.buttons" class="DecimalDotButton$DecimalDotListener" method="mouseEntered" variable="e" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like e
+</violation>
+<violation beginline="96" endline="97" begincolumn="56" endcolumn="17" rule="UncommentedEmptyMethod" ruleset="Design" package="hr.fer.zemris.java.gui.calc.buttons" class="DecimalDotButton$DecimalDotListener" method="mouseEntered" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/design.html#UncommentedEmptyMethod" priority="3">
+Document empty method
+</violation>
+<violation beginline="96" endline="96" begincolumn="42" endcolumn="53" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc.buttons" class="DecimalDotButton$DecimalDotListener" method="mouseEntered" variable="e" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'e' is not assigned and could be declared final
+</violation>
+<violation beginline="100" endline="100" begincolumn="52" endcolumn="52" rule="ShortVariable" ruleset="Naming" package="hr.fer.zemris.java.gui.calc.buttons" class="DecimalDotButton$DecimalDotListener" method="mouseExited" variable="e" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like e
+</violation>
+<violation beginline="100" endline="101" begincolumn="55" endcolumn="17" rule="UncommentedEmptyMethod" ruleset="Design" package="hr.fer.zemris.java.gui.calc.buttons" class="DecimalDotButton$DecimalDotListener" method="mouseExited" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/design.html#UncommentedEmptyMethod" priority="3">
+Document empty method
+</violation>
+<violation beginline="100" endline="100" begincolumn="41" endcolumn="52" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc.buttons" class="DecimalDotButton$DecimalDotListener" method="mouseExited" variable="e" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'e' is not assigned and could be declared final
+</violation>
+</file>
+<file name="C:\Users\Vili\workspaceZaJavaTecaj\calculator\src\main\java\hr\fer\zemris\java\gui\calc\buttons\DigitButton.java">
+<violation beginline="32" endline="40" begincolumn="16" endcolumn="9" rule="CallSuperInConstructor" ruleset="Controversial" package="hr.fer.zemris.java.gui.calc.buttons" class="DigitButton" method="DigitButton" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#CallSuperInConstructor" priority="3">
+It is a good practice to call super() in a constructor
+</violation>
+<violation beginline="32" endline="32" begincolumn="28" endcolumn="39" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc.buttons" class="DigitButton" method="DigitButton" variable="digit" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'digit' is not assigned and could be declared final
+</violation>
+<violation beginline="32" endline="32" begincolumn="42" endcolumn="58" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc.buttons" class="DigitButton" method="DigitButton" variable="parent" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'parent' is not assigned and could be declared final
+</violation>
+<violation beginline="52" endline="52" begincolumn="36" endcolumn="41" rule="ImmutableField" ruleset="Design" package="hr.fer.zemris.java.gui.calc.buttons" class="DigitButton$DigitListener" variable="parent" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/design.html#ImmutableField" priority="3">
+Private field 'parent' could be made final; it is only initialized in the declaration or constructor.
+</violation>
+<violation beginline="57" endline="57" begincolumn="32" endcolumn="36" rule="ImmutableField" ruleset="Design" package="hr.fer.zemris.java.gui.calc.buttons" class="DigitButton$DigitListener" variable="digit" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/design.html#ImmutableField" priority="3">
+Private field 'digit' could be made final; it is only initialized in the declaration or constructor.
+</violation>
+<violation beginline="64" endline="64" begincolumn="38" endcolumn="49" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc.buttons" class="DigitButton$DigitListener" method="DigitListener" variable="digit" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'digit' is not assigned and could be declared final
+</violation>
+<violation beginline="64" endline="64" begincolumn="52" endcolumn="68" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc.buttons" class="DigitButton$DigitListener" method="DigitListener" variable="parent" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'parent' is not assigned and could be declared final
+</violation>
+<violation beginline="70" endline="70" begincolumn="53" endcolumn="53" rule="ShortVariable" ruleset="Naming" package="hr.fer.zemris.java.gui.calc.buttons" class="DigitButton$DigitListener" method="mouseClicked" variable="e" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like e
+</violation>
+<violation beginline="70" endline="70" begincolumn="42" endcolumn="53" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc.buttons" class="DigitButton$DigitListener" method="mouseClicked" variable="e" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'e' is not assigned and could be declared final
+</violation>
+<violation beginline="75" endline="75" begincolumn="25" endcolumn="70" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc.buttons" class="DigitButton$DigitListener" method="mouseClicked" variable="peekElem" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'peekElem' could be declared final
+</violation>
+<violation beginline="81" endline="81" begincolumn="33" endcolumn="83" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc.buttons" class="DigitButton$DigitListener" method="mouseClicked" variable="numCon" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'numCon' could be declared final
+</violation>
+<violation beginline="84" endline="84" begincolumn="33" endcolumn="39" rule="OnlyOneReturn" ruleset="Controversial" package="hr.fer.zemris.java.gui.calc.buttons" class="DigitButton$DigitListener" method="mouseClicked" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#OnlyOneReturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="88" endline="88" begincolumn="33" endcolumn="87" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc.buttons" class="DigitButton$DigitListener" method="mouseClicked" variable="numConPeek" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'numConPeek' could be declared final
+</violation>
+<violation beginline="96" endline="96" begincolumn="53" endcolumn="53" rule="ShortVariable" ruleset="Naming" package="hr.fer.zemris.java.gui.calc.buttons" class="DigitButton$DigitListener" method="mousePressed" variable="e" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like e
+</violation>
+<violation beginline="96" endline="97" begincolumn="56" endcolumn="17" rule="UncommentedEmptyMethod" ruleset="Design" package="hr.fer.zemris.java.gui.calc.buttons" class="DigitButton$DigitListener" method="mousePressed" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/design.html#UncommentedEmptyMethod" priority="3">
+Document empty method
+</violation>
+<violation beginline="96" endline="96" begincolumn="42" endcolumn="53" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc.buttons" class="DigitButton$DigitListener" method="mousePressed" variable="e" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'e' is not assigned and could be declared final
+</violation>
+<violation beginline="100" endline="100" begincolumn="54" endcolumn="54" rule="ShortVariable" ruleset="Naming" package="hr.fer.zemris.java.gui.calc.buttons" class="DigitButton$DigitListener" method="mouseReleased" variable="e" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like e
+</violation>
+<violation beginline="100" endline="101" begincolumn="57" endcolumn="17" rule="UncommentedEmptyMethod" ruleset="Design" package="hr.fer.zemris.java.gui.calc.buttons" class="DigitButton$DigitListener" method="mouseReleased" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/design.html#UncommentedEmptyMethod" priority="3">
+Document empty method
+</violation>
+<violation beginline="100" endline="100" begincolumn="43" endcolumn="54" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc.buttons" class="DigitButton$DigitListener" method="mouseReleased" variable="e" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'e' is not assigned and could be declared final
+</violation>
+<violation beginline="104" endline="104" begincolumn="53" endcolumn="53" rule="ShortVariable" ruleset="Naming" package="hr.fer.zemris.java.gui.calc.buttons" class="DigitButton$DigitListener" method="mouseEntered" variable="e" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like e
+</violation>
+<violation beginline="104" endline="105" begincolumn="56" endcolumn="17" rule="UncommentedEmptyMethod" ruleset="Design" package="hr.fer.zemris.java.gui.calc.buttons" class="DigitButton$DigitListener" method="mouseEntered" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/design.html#UncommentedEmptyMethod" priority="3">
+Document empty method
+</violation>
+<violation beginline="104" endline="104" begincolumn="42" endcolumn="53" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc.buttons" class="DigitButton$DigitListener" method="mouseEntered" variable="e" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'e' is not assigned and could be declared final
+</violation>
+<violation beginline="108" endline="108" begincolumn="52" endcolumn="52" rule="ShortVariable" ruleset="Naming" package="hr.fer.zemris.java.gui.calc.buttons" class="DigitButton$DigitListener" method="mouseExited" variable="e" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like e
+</violation>
+<violation beginline="108" endline="109" begincolumn="55" endcolumn="17" rule="UncommentedEmptyMethod" ruleset="Design" package="hr.fer.zemris.java.gui.calc.buttons" class="DigitButton$DigitListener" method="mouseExited" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/design.html#UncommentedEmptyMethod" priority="3">
+Document empty method
+</violation>
+<violation beginline="108" endline="108" begincolumn="41" endcolumn="52" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc.buttons" class="DigitButton$DigitListener" method="mouseExited" variable="e" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'e' is not assigned and could be declared final
+</violation>
+</file>
+<file name="C:\Users\Vili\workspaceZaJavaTecaj\calculator\src\main\java\hr\fer\zemris\java\gui\calc\buttons\EqualsButton.java">
+<violation beginline="34" endline="42" begincolumn="16" endcolumn="9" rule="CallSuperInConstructor" ruleset="Controversial" package="hr.fer.zemris.java.gui.calc.buttons" class="EqualsButton" method="EqualsButton" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#CallSuperInConstructor" priority="3">
+It is a good practice to call super() in a constructor
+</violation>
+<violation beginline="34" endline="34" begincolumn="29" endcolumn="40" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc.buttons" class="EqualsButton" method="EqualsButton" variable="equal" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'equal' is not assigned and could be declared final
+</violation>
+<violation beginline="34" endline="34" begincolumn="43" endcolumn="59" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc.buttons" class="EqualsButton" method="EqualsButton" variable="parent" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'parent' is not assigned and could be declared final
+</violation>
+<violation beginline="54" endline="54" begincolumn="36" endcolumn="41" rule="ImmutableField" ruleset="Design" package="hr.fer.zemris.java.gui.calc.buttons" class="EqualsButton$EqualsListener" variable="parent" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/design.html#ImmutableField" priority="3">
+Private field 'parent' could be made final; it is only initialized in the declaration or constructor.
+</violation>
+<violation beginline="60" endline="60" begincolumn="39" endcolumn="55" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc.buttons" class="EqualsButton$EqualsListener" method="EqualsListener" variable="parent" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'parent' is not assigned and could be declared final
+</violation>
+<violation beginline="65" endline="65" begincolumn="53" endcolumn="53" rule="ShortVariable" ruleset="Naming" package="hr.fer.zemris.java.gui.calc.buttons" class="EqualsButton$EqualsListener" method="mouseClicked" variable="e" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like e
+</violation>
+<violation beginline="65" endline="65" begincolumn="42" endcolumn="53" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc.buttons" class="EqualsButton$EqualsListener" method="mouseClicked" variable="e" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'e' is not assigned and could be declared final
+</violation>
+<violation beginline="67" endline="67" begincolumn="55" endcolumn="55" rule="AvoidLiteralsInIfCondition" ruleset="Controversial" package="hr.fer.zemris.java.gui.calc.buttons" class="EqualsButton$EqualsListener" method="mouseClicked" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#AvoidLiteralsInIfCondition" priority="3">
+Avoid using Literals in Conditional Statements
+</violation>
+<violation beginline="68" endline="68" begincolumn="33" endcolumn="39" rule="OnlyOneReturn" ruleset="Controversial" package="hr.fer.zemris.java.gui.calc.buttons" class="EqualsButton$EqualsListener" method="mouseClicked" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#OnlyOneReturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="70" endline="70" begincolumn="25" endcolumn="70" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc.buttons" class="EqualsButton$EqualsListener" method="mouseClicked" variable="peekElem" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'peekElem' could be declared final
+</violation>
+<violation beginline="76" endline="76" begincolumn="33" endcolumn="101" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc.buttons" class="EqualsButton$EqualsListener" method="mouseClicked" variable="secondArg" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'secondArg' could be declared final
+</violation>
+<violation beginline="77" endline="77" begincolumn="33" endcolumn="100" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc.buttons" class="EqualsButton$EqualsListener" method="mouseClicked" variable="oper" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'oper' could be declared final
+</violation>
+<violation beginline="78" endline="78" begincolumn="33" endcolumn="100" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc.buttons" class="EqualsButton$EqualsListener" method="mouseClicked" variable="firstArg" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'firstArg' could be declared final
+</violation>
+<violation beginline="87" endline="87" begincolumn="53" endcolumn="53" rule="ShortVariable" ruleset="Naming" package="hr.fer.zemris.java.gui.calc.buttons" class="EqualsButton$EqualsListener" method="mousePressed" variable="e" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like e
+</violation>
+<violation beginline="87" endline="88" begincolumn="56" endcolumn="17" rule="UncommentedEmptyMethod" ruleset="Design" package="hr.fer.zemris.java.gui.calc.buttons" class="EqualsButton$EqualsListener" method="mousePressed" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/design.html#UncommentedEmptyMethod" priority="3">
+Document empty method
+</violation>
+<violation beginline="87" endline="87" begincolumn="42" endcolumn="53" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc.buttons" class="EqualsButton$EqualsListener" method="mousePressed" variable="e" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'e' is not assigned and could be declared final
+</violation>
+<violation beginline="91" endline="91" begincolumn="54" endcolumn="54" rule="ShortVariable" ruleset="Naming" package="hr.fer.zemris.java.gui.calc.buttons" class="EqualsButton$EqualsListener" method="mouseReleased" variable="e" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like e
+</violation>
+<violation beginline="91" endline="92" begincolumn="57" endcolumn="17" rule="UncommentedEmptyMethod" ruleset="Design" package="hr.fer.zemris.java.gui.calc.buttons" class="EqualsButton$EqualsListener" method="mouseReleased" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/design.html#UncommentedEmptyMethod" priority="3">
+Document empty method
+</violation>
+<violation beginline="91" endline="91" begincolumn="43" endcolumn="54" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc.buttons" class="EqualsButton$EqualsListener" method="mouseReleased" variable="e" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'e' is not assigned and could be declared final
+</violation>
+<violation beginline="95" endline="95" begincolumn="53" endcolumn="53" rule="ShortVariable" ruleset="Naming" package="hr.fer.zemris.java.gui.calc.buttons" class="EqualsButton$EqualsListener" method="mouseEntered" variable="e" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like e
+</violation>
+<violation beginline="95" endline="96" begincolumn="56" endcolumn="17" rule="UncommentedEmptyMethod" ruleset="Design" package="hr.fer.zemris.java.gui.calc.buttons" class="EqualsButton$EqualsListener" method="mouseEntered" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/design.html#UncommentedEmptyMethod" priority="3">
+Document empty method
+</violation>
+<violation beginline="95" endline="95" begincolumn="42" endcolumn="53" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc.buttons" class="EqualsButton$EqualsListener" method="mouseEntered" variable="e" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'e' is not assigned and could be declared final
+</violation>
+<violation beginline="99" endline="99" begincolumn="52" endcolumn="52" rule="ShortVariable" ruleset="Naming" package="hr.fer.zemris.java.gui.calc.buttons" class="EqualsButton$EqualsListener" method="mouseExited" variable="e" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like e
+</violation>
+<violation beginline="99" endline="100" begincolumn="55" endcolumn="17" rule="UncommentedEmptyMethod" ruleset="Design" package="hr.fer.zemris.java.gui.calc.buttons" class="EqualsButton$EqualsListener" method="mouseExited" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/design.html#UncommentedEmptyMethod" priority="3">
+Document empty method
+</violation>
+<violation beginline="99" endline="99" begincolumn="41" endcolumn="52" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc.buttons" class="EqualsButton$EqualsListener" method="mouseExited" variable="e" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'e' is not assigned and could be declared final
+</violation>
+</file>
+<file name="C:\Users\Vili\workspaceZaJavaTecaj\calculator\src\main\java\hr\fer\zemris\java\gui\calc\buttons\FunctionButton.java">
+<violation beginline="32" endline="32" begincolumn="24" endcolumn="29" rule="ImmutableField" ruleset="Design" package="hr.fer.zemris.java.gui.calc.buttons" class="FunctionButton" variable="symbol" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/design.html#ImmutableField" priority="3">
+Private field 'symbol' could be made final; it is only initialized in the declaration or constructor.
+</violation>
+<violation beginline="37" endline="37" begincolumn="24" endcolumn="35" rule="ImmutableField" ruleset="Design" package="hr.fer.zemris.java.gui.calc.buttons" class="FunctionButton" variable="inversSymbol" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/design.html#ImmutableField" priority="3">
+Private field 'inversSymbol' could be made final; it is only initialized in the declaration or constructor.
+</violation>
+<violation beginline="46" endline="57" begincolumn="16" endcolumn="9" rule="CallSuperInConstructor" ruleset="Controversial" package="hr.fer.zemris.java.gui.calc.buttons" class="FunctionButton" method="FunctionButton" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#CallSuperInConstructor" priority="3">
+It is a good practice to call super() in a constructor
+</violation>
+<violation beginline="46" endline="46" begincolumn="67" endcolumn="84" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc.buttons" class="FunctionButton" method="FunctionButton" variable="funcType" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'funcType' is not assigned and could be declared final
+</violation>
+<violation beginline="46" endline="46" begincolumn="46" endcolumn="64" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc.buttons" class="FunctionButton" method="FunctionButton" variable="inversSymbol" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'inversSymbol' is not assigned and could be declared final
+</violation>
+<violation beginline="46" endline="46" begincolumn="87" endcolumn="103" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc.buttons" class="FunctionButton" method="FunctionButton" variable="parent" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'parent' is not assigned and could be declared final
+</violation>
+<violation beginline="46" endline="46" begincolumn="31" endcolumn="43" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc.buttons" class="FunctionButton" method="FunctionButton" variable="symbol" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'symbol' is not assigned and could be declared final
+</violation>
+<violation beginline="63" endline="63" begincolumn="28" endcolumn="48" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc.buttons" class="FunctionButton" method="invers" variable="inversEnabled" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'inversEnabled' is not assigned and could be declared final
+</violation>
+<violation beginline="83" endline="83" begincolumn="36" endcolumn="41" rule="ImmutableField" ruleset="Design" package="hr.fer.zemris.java.gui.calc.buttons" class="FunctionButton$FunctionListener" variable="parent" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/design.html#ImmutableField" priority="3">
+Private field 'parent' could be made final; it is only initialized in the declaration or constructor.
+</violation>
+<violation beginline="88" endline="88" begincolumn="35" endcolumn="42" rule="ImmutableField" ruleset="Design" package="hr.fer.zemris.java.gui.calc.buttons" class="FunctionButton$FunctionListener" variable="funcType" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/design.html#ImmutableField" priority="3">
+Private field 'funcType' could be made final; it is only initialized in the declaration or constructor.
+</violation>
+<violation beginline="95" endline="95" begincolumn="41" endcolumn="58" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc.buttons" class="FunctionButton$FunctionListener" method="FunctionListener" variable="funcType" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'funcType' is not assigned and could be declared final
+</violation>
+<violation beginline="95" endline="95" begincolumn="61" endcolumn="77" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc.buttons" class="FunctionButton$FunctionListener" method="FunctionListener" variable="parent" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'parent' is not assigned and could be declared final
+</violation>
+<violation beginline="101" endline="101" begincolumn="53" endcolumn="53" rule="ShortVariable" ruleset="Naming" package="hr.fer.zemris.java.gui.calc.buttons" class="FunctionButton$FunctionListener" method="mouseClicked" variable="e" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like e
+</violation>
+<violation beginline="101" endline="101" begincolumn="42" endcolumn="53" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc.buttons" class="FunctionButton$FunctionListener" method="mouseClicked" variable="e" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'e' is not assigned and could be declared final
+</violation>
+<violation beginline="104" endline="104" begincolumn="33" endcolumn="39" rule="OnlyOneReturn" ruleset="Controversial" package="hr.fer.zemris.java.gui.calc.buttons" class="FunctionButton$FunctionListener" method="mouseClicked" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#OnlyOneReturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="107" endline="107" begincolumn="25" endcolumn="70" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc.buttons" class="FunctionButton$FunctionListener" method="mouseClicked" variable="peekElem" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'peekElem' could be declared final
+</violation>
+<violation beginline="110" endline="110" begincolumn="33" endcolumn="101" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc.buttons" class="FunctionButton$FunctionListener" method="mouseClicked" variable="opCon" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'opCon' could be declared final
+</violation>
+<violation beginline="111" endline="111" begincolumn="33" endcolumn="98" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc.buttons" class="FunctionButton$FunctionListener" method="mouseClicked" variable="numCon" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'numCon' could be declared final
+</violation>
+<violation beginline="115" endline="115" begincolumn="33" endcolumn="39" rule="OnlyOneReturn" ruleset="Controversial" package="hr.fer.zemris.java.gui.calc.buttons" class="FunctionButton$FunctionListener" method="mouseClicked" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#OnlyOneReturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="119" endline="119" begincolumn="33" endcolumn="100" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc.buttons" class="FunctionButton$FunctionListener" method="mouseClicked" variable="firstArg" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'firstArg' could be declared final
+</violation>
+<violation beginline="128" endline="128" begincolumn="53" endcolumn="53" rule="ShortVariable" ruleset="Naming" package="hr.fer.zemris.java.gui.calc.buttons" class="FunctionButton$FunctionListener" method="mousePressed" variable="e" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like e
+</violation>
+<violation beginline="128" endline="129" begincolumn="56" endcolumn="17" rule="UncommentedEmptyMethod" ruleset="Design" package="hr.fer.zemris.java.gui.calc.buttons" class="FunctionButton$FunctionListener" method="mousePressed" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/design.html#UncommentedEmptyMethod" priority="3">
+Document empty method
+</violation>
+<violation beginline="128" endline="128" begincolumn="42" endcolumn="53" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc.buttons" class="FunctionButton$FunctionListener" method="mousePressed" variable="e" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'e' is not assigned and could be declared final
+</violation>
+<violation beginline="132" endline="132" begincolumn="54" endcolumn="54" rule="ShortVariable" ruleset="Naming" package="hr.fer.zemris.java.gui.calc.buttons" class="FunctionButton$FunctionListener" method="mouseReleased" variable="e" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like e
+</violation>
+<violation beginline="132" endline="133" begincolumn="57" endcolumn="17" rule="UncommentedEmptyMethod" ruleset="Design" package="hr.fer.zemris.java.gui.calc.buttons" class="FunctionButton$FunctionListener" method="mouseReleased" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/design.html#UncommentedEmptyMethod" priority="3">
+Document empty method
+</violation>
+<violation beginline="132" endline="132" begincolumn="43" endcolumn="54" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc.buttons" class="FunctionButton$FunctionListener" method="mouseReleased" variable="e" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'e' is not assigned and could be declared final
+</violation>
+<violation beginline="136" endline="136" begincolumn="53" endcolumn="53" rule="ShortVariable" ruleset="Naming" package="hr.fer.zemris.java.gui.calc.buttons" class="FunctionButton$FunctionListener" method="mouseEntered" variable="e" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like e
+</violation>
+<violation beginline="136" endline="137" begincolumn="56" endcolumn="17" rule="UncommentedEmptyMethod" ruleset="Design" package="hr.fer.zemris.java.gui.calc.buttons" class="FunctionButton$FunctionListener" method="mouseEntered" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/design.html#UncommentedEmptyMethod" priority="3">
+Document empty method
+</violation>
+<violation beginline="136" endline="136" begincolumn="42" endcolumn="53" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc.buttons" class="FunctionButton$FunctionListener" method="mouseEntered" variable="e" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'e' is not assigned and could be declared final
+</violation>
+<violation beginline="140" endline="140" begincolumn="52" endcolumn="52" rule="ShortVariable" ruleset="Naming" package="hr.fer.zemris.java.gui.calc.buttons" class="FunctionButton$FunctionListener" method="mouseExited" variable="e" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like e
+</violation>
+<violation beginline="140" endline="141" begincolumn="55" endcolumn="17" rule="UncommentedEmptyMethod" ruleset="Design" package="hr.fer.zemris.java.gui.calc.buttons" class="FunctionButton$FunctionListener" method="mouseExited" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/design.html#UncommentedEmptyMethod" priority="3">
+Document empty method
+</violation>
+<violation beginline="140" endline="140" begincolumn="41" endcolumn="52" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc.buttons" class="FunctionButton$FunctionListener" method="mouseExited" variable="e" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'e' is not assigned and could be declared final
+</violation>
+</file>
+<file name="C:\Users\Vili\workspaceZaJavaTecaj\calculator\src\main\java\hr\fer\zemris\java\gui\calc\buttons\OperatorButton.java">
+<violation beginline="42" endline="51" begincolumn="16" endcolumn="9" rule="CallSuperInConstructor" ruleset="Controversial" package="hr.fer.zemris.java.gui.calc.buttons" class="OperatorButton" method="OperatorButton" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#CallSuperInConstructor" priority="3">
+It is a good practice to call super() in a constructor
+</violation>
+<violation beginline="42" endline="42" begincolumn="48" endcolumn="70" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc.buttons" class="OperatorButton" method="OperatorButton" variable="operationType" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'operationType' is not assigned and could be declared final
+</violation>
+<violation beginline="42" endline="42" begincolumn="31" endcolumn="45" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc.buttons" class="OperatorButton" method="OperatorButton" variable="operator" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'operator' is not assigned and could be declared final
+</violation>
+<violation beginline="43" endline="43" begincolumn="25" endcolumn="41" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc.buttons" class="OperatorButton" method="OperatorButton" variable="parent" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'parent' is not assigned and could be declared final
+</violation>
+<violation beginline="65" endline="65" begincolumn="36" endcolumn="41" rule="ImmutableField" ruleset="Design" package="hr.fer.zemris.java.gui.calc.buttons" class="OperatorButton$OperatorListener" variable="parent" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/design.html#ImmutableField" priority="3">
+Private field 'parent' could be made final; it is only initialized in the declaration or constructor.
+</violation>
+<violation beginline="70" endline="70" begincolumn="32" endcolumn="39" rule="ImmutableField" ruleset="Design" package="hr.fer.zemris.java.gui.calc.buttons" class="OperatorButton$OperatorListener" variable="operator" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/design.html#ImmutableField" priority="3">
+Private field 'operator' could be made final; it is only initialized in the declaration or constructor.
+</violation>
+<violation beginline="75" endline="75" begincolumn="35" endcolumn="47" rule="ImmutableField" ruleset="Design" package="hr.fer.zemris.java.gui.calc.buttons" class="OperatorButton$OperatorListener" variable="operationType" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/design.html#ImmutableField" priority="3">
+Private field 'operationType' could be made final; it is only initialized in the declaration or constructor.
+</violation>
+<violation beginline="83" endline="83" begincolumn="58" endcolumn="80" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc.buttons" class="OperatorButton$OperatorListener" method="OperatorListener" variable="operationType" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'operationType' is not assigned and could be declared final
+</violation>
+<violation beginline="83" endline="83" begincolumn="41" endcolumn="55" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc.buttons" class="OperatorButton$OperatorListener" method="OperatorListener" variable="operator" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'operator' is not assigned and could be declared final
+</violation>
+<violation beginline="84" endline="84" begincolumn="33" endcolumn="49" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc.buttons" class="OperatorButton$OperatorListener" method="OperatorListener" variable="parent" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'parent' is not assigned and could be declared final
+</violation>
+<violation beginline="91" endline="91" begincolumn="53" endcolumn="53" rule="ShortVariable" ruleset="Naming" package="hr.fer.zemris.java.gui.calc.buttons" class="OperatorButton$OperatorListener" method="mouseClicked" variable="e" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like e
+</violation>
+<violation beginline="91" endline="91" begincolumn="42" endcolumn="53" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc.buttons" class="OperatorButton$OperatorListener" method="mouseClicked" variable="e" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'e' is not assigned and could be declared final
+</violation>
+<violation beginline="94" endline="94" begincolumn="33" endcolumn="39" rule="OnlyOneReturn" ruleset="Controversial" package="hr.fer.zemris.java.gui.calc.buttons" class="OperatorButton$OperatorListener" method="mouseClicked" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#OnlyOneReturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="97" endline="97" begincolumn="25" endcolumn="70" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc.buttons" class="OperatorButton$OperatorListener" method="mouseClicked" variable="peekElem" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'peekElem' could be declared final
+</violation>
+<violation beginline="98" endline="131" begincolumn="43" endcolumn="54" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="hr.fer.zemris.java.gui.calc.buttons" class="OperatorButton$OperatorListener" method="mouseClicked" variable="opCon" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'opCon' (lines '98'-'131').
+</violation>
+<violation beginline="98" endline="99" begincolumn="25" endcolumn="54" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc.buttons" class="OperatorButton$OperatorListener" method="mouseClicked" variable="opCon" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'opCon' could be declared final
+</violation>
+<violation beginline="104" endline="104" begincolumn="41" endcolumn="47" rule="OnlyOneReturn" ruleset="Controversial" package="hr.fer.zemris.java.gui.calc.buttons" class="OperatorButton$OperatorListener" method="mouseClicked" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#OnlyOneReturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="112" endline="113" begincolumn="41" endcolumn="73" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc.buttons" class="OperatorButton$OperatorListener" method="mouseClicked" variable="secondArg" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'secondArg' could be declared final
+</violation>
+<violation beginline="114" endline="115" begincolumn="41" endcolumn="73" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc.buttons" class="OperatorButton$OperatorListener" method="mouseClicked" variable="oper" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'oper' could be declared final
+</violation>
+<violation beginline="116" endline="117" begincolumn="41" endcolumn="73" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc.buttons" class="OperatorButton$OperatorListener" method="mouseClicked" variable="firstArg" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'firstArg' could be declared final
+</violation>
+<violation beginline="134" endline="134" begincolumn="53" endcolumn="53" rule="ShortVariable" ruleset="Naming" package="hr.fer.zemris.java.gui.calc.buttons" class="OperatorButton$OperatorListener" method="mousePressed" variable="e" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like e
+</violation>
+<violation beginline="134" endline="135" begincolumn="56" endcolumn="17" rule="UncommentedEmptyMethod" ruleset="Design" package="hr.fer.zemris.java.gui.calc.buttons" class="OperatorButton$OperatorListener" method="mousePressed" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/design.html#UncommentedEmptyMethod" priority="3">
+Document empty method
+</violation>
+<violation beginline="134" endline="134" begincolumn="42" endcolumn="53" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc.buttons" class="OperatorButton$OperatorListener" method="mousePressed" variable="e" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'e' is not assigned and could be declared final
+</violation>
+<violation beginline="138" endline="138" begincolumn="54" endcolumn="54" rule="ShortVariable" ruleset="Naming" package="hr.fer.zemris.java.gui.calc.buttons" class="OperatorButton$OperatorListener" method="mouseReleased" variable="e" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like e
+</violation>
+<violation beginline="138" endline="139" begincolumn="57" endcolumn="17" rule="UncommentedEmptyMethod" ruleset="Design" package="hr.fer.zemris.java.gui.calc.buttons" class="OperatorButton$OperatorListener" method="mouseReleased" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/design.html#UncommentedEmptyMethod" priority="3">
+Document empty method
+</violation>
+<violation beginline="138" endline="138" begincolumn="43" endcolumn="54" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc.buttons" class="OperatorButton$OperatorListener" method="mouseReleased" variable="e" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'e' is not assigned and could be declared final
+</violation>
+<violation beginline="142" endline="142" begincolumn="53" endcolumn="53" rule="ShortVariable" ruleset="Naming" package="hr.fer.zemris.java.gui.calc.buttons" class="OperatorButton$OperatorListener" method="mouseEntered" variable="e" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like e
+</violation>
+<violation beginline="142" endline="143" begincolumn="56" endcolumn="17" rule="UncommentedEmptyMethod" ruleset="Design" package="hr.fer.zemris.java.gui.calc.buttons" class="OperatorButton$OperatorListener" method="mouseEntered" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/design.html#UncommentedEmptyMethod" priority="3">
+Document empty method
+</violation>
+<violation beginline="142" endline="142" begincolumn="42" endcolumn="53" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc.buttons" class="OperatorButton$OperatorListener" method="mouseEntered" variable="e" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'e' is not assigned and could be declared final
+</violation>
+<violation beginline="146" endline="146" begincolumn="52" endcolumn="52" rule="ShortVariable" ruleset="Naming" package="hr.fer.zemris.java.gui.calc.buttons" class="OperatorButton$OperatorListener" method="mouseExited" variable="e" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like e
+</violation>
+<violation beginline="146" endline="147" begincolumn="55" endcolumn="17" rule="UncommentedEmptyMethod" ruleset="Design" package="hr.fer.zemris.java.gui.calc.buttons" class="OperatorButton$OperatorListener" method="mouseExited" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/design.html#UncommentedEmptyMethod" priority="3">
+Document empty method
+</violation>
+<violation beginline="146" endline="146" begincolumn="41" endcolumn="52" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc.buttons" class="OperatorButton$OperatorListener" method="mouseExited" variable="e" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'e' is not assigned and could be declared final
+</violation>
+</file>
+<file name="C:\Users\Vili\workspaceZaJavaTecaj\calculator\src\main\java\hr\fer\zemris\java\gui\calc\buttons\ResetButton.java">
+<violation beginline="28" endline="36" begincolumn="16" endcolumn="9" rule="CallSuperInConstructor" ruleset="Controversial" package="hr.fer.zemris.java.gui.calc.buttons" class="ResetButton" method="ResetButton" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#CallSuperInConstructor" priority="3">
+It is a good practice to call super() in a constructor
+</violation>
+<violation beginline="28" endline="28" begincolumn="28" endcolumn="38" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc.buttons" class="ResetButton" method="ResetButton" variable="name" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'name' is not assigned and could be declared final
+</violation>
+<violation beginline="28" endline="28" begincolumn="41" endcolumn="57" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc.buttons" class="ResetButton" method="ResetButton" variable="parent" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'parent' is not assigned and could be declared final
+</violation>
+<violation beginline="48" endline="48" begincolumn="36" endcolumn="41" rule="ImmutableField" ruleset="Design" package="hr.fer.zemris.java.gui.calc.buttons" class="ResetButton$ResetListener" variable="parent" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/design.html#ImmutableField" priority="3">
+Private field 'parent' could be made final; it is only initialized in the declaration or constructor.
+</violation>
+<violation beginline="54" endline="54" begincolumn="38" endcolumn="54" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc.buttons" class="ResetButton$ResetListener" method="ResetListener" variable="parent" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'parent' is not assigned and could be declared final
+</violation>
+<violation beginline="60" endline="60" begincolumn="53" endcolumn="53" rule="ShortVariable" ruleset="Naming" package="hr.fer.zemris.java.gui.calc.buttons" class="ResetButton$ResetListener" method="mouseClicked" variable="e" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like e
+</violation>
+<violation beginline="60" endline="60" begincolumn="42" endcolumn="53" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc.buttons" class="ResetButton$ResetListener" method="mouseClicked" variable="e" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'e' is not assigned and could be declared final
+</violation>
+<violation beginline="67" endline="67" begincolumn="53" endcolumn="53" rule="ShortVariable" ruleset="Naming" package="hr.fer.zemris.java.gui.calc.buttons" class="ResetButton$ResetListener" method="mousePressed" variable="e" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like e
+</violation>
+<violation beginline="67" endline="68" begincolumn="56" endcolumn="17" rule="UncommentedEmptyMethod" ruleset="Design" package="hr.fer.zemris.java.gui.calc.buttons" class="ResetButton$ResetListener" method="mousePressed" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/design.html#UncommentedEmptyMethod" priority="3">
+Document empty method
+</violation>
+<violation beginline="67" endline="67" begincolumn="42" endcolumn="53" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc.buttons" class="ResetButton$ResetListener" method="mousePressed" variable="e" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'e' is not assigned and could be declared final
+</violation>
+<violation beginline="71" endline="71" begincolumn="54" endcolumn="54" rule="ShortVariable" ruleset="Naming" package="hr.fer.zemris.java.gui.calc.buttons" class="ResetButton$ResetListener" method="mouseReleased" variable="e" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like e
+</violation>
+<violation beginline="71" endline="72" begincolumn="57" endcolumn="17" rule="UncommentedEmptyMethod" ruleset="Design" package="hr.fer.zemris.java.gui.calc.buttons" class="ResetButton$ResetListener" method="mouseReleased" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/design.html#UncommentedEmptyMethod" priority="3">
+Document empty method
+</violation>
+<violation beginline="71" endline="71" begincolumn="43" endcolumn="54" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc.buttons" class="ResetButton$ResetListener" method="mouseReleased" variable="e" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'e' is not assigned and could be declared final
+</violation>
+<violation beginline="75" endline="75" begincolumn="53" endcolumn="53" rule="ShortVariable" ruleset="Naming" package="hr.fer.zemris.java.gui.calc.buttons" class="ResetButton$ResetListener" method="mouseEntered" variable="e" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like e
+</violation>
+<violation beginline="75" endline="76" begincolumn="56" endcolumn="17" rule="UncommentedEmptyMethod" ruleset="Design" package="hr.fer.zemris.java.gui.calc.buttons" class="ResetButton$ResetListener" method="mouseEntered" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/design.html#UncommentedEmptyMethod" priority="3">
+Document empty method
+</violation>
+<violation beginline="75" endline="75" begincolumn="42" endcolumn="53" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc.buttons" class="ResetButton$ResetListener" method="mouseEntered" variable="e" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'e' is not assigned and could be declared final
+</violation>
+<violation beginline="79" endline="79" begincolumn="52" endcolumn="52" rule="ShortVariable" ruleset="Naming" package="hr.fer.zemris.java.gui.calc.buttons" class="ResetButton$ResetListener" method="mouseExited" variable="e" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like e
+</violation>
+<violation beginline="79" endline="80" begincolumn="55" endcolumn="17" rule="UncommentedEmptyMethod" ruleset="Design" package="hr.fer.zemris.java.gui.calc.buttons" class="ResetButton$ResetListener" method="mouseExited" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/design.html#UncommentedEmptyMethod" priority="3">
+Document empty method
+</violation>
+<violation beginline="79" endline="79" begincolumn="41" endcolumn="52" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc.buttons" class="ResetButton$ResetListener" method="mouseExited" variable="e" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'e' is not assigned and could be declared final
+</violation>
+</file>
+<file name="C:\Users\Vili\workspaceZaJavaTecaj\calculator\src\main\java\hr\fer\zemris\java\gui\calc\buttons\StackButton.java">
+<violation beginline="34" endline="42" begincolumn="16" endcolumn="9" rule="CallSuperInConstructor" ruleset="Controversial" package="hr.fer.zemris.java.gui.calc.buttons" class="StackButton" method="StackButton" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#CallSuperInConstructor" priority="3">
+It is a good practice to call super() in a constructor
+</violation>
+<violation beginline="34" endline="34" begincolumn="28" endcolumn="38" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc.buttons" class="StackButton" method="StackButton" variable="name" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'name' is not assigned and could be declared final
+</violation>
+<violation beginline="34" endline="34" begincolumn="41" endcolumn="64" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc.buttons" class="StackButton" method="StackButton" variable="operation" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'operation' is not assigned and could be declared final
+</violation>
+<violation beginline="34" endline="34" begincolumn="67" endcolumn="83" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc.buttons" class="StackButton" method="StackButton" variable="parent" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'parent' is not assigned and could be declared final
+</violation>
+<violation beginline="49" endline="138" begincolumn="17" endcolumn="9" rule="CyclomaticComplexity" ruleset="Code Size" package="hr.fer.zemris.java.gui.calc.buttons" class="StackButton" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/codesize.html#CyclomaticComplexity" priority="3">
+The class 'StackListener' has a Cyclomatic Complexity of 3 (Highest = 10).
+</violation>
+<violation beginline="49" endline="138" begincolumn="17" endcolumn="9" rule="ModifiedCyclomaticComplexity" ruleset="Code Size" package="hr.fer.zemris.java.gui.calc.buttons" class="StackButton" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/codesize.html#ModifiedCyclomaticComplexity" priority="3">
+The class 'StackListener' has a Modified Cyclomatic Complexity of 3 (Highest = 10).
+</violation>
+<violation beginline="49" endline="138" begincolumn="17" endcolumn="9" rule="StdCyclomaticComplexity" ruleset="Code Size" package="hr.fer.zemris.java.gui.calc.buttons" class="StackButton" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/codesize.html#StdCyclomaticComplexity" priority="3">
+The class 'StackListener' has a Standard Cyclomatic Complexity of 3 (Highest = 10).
+</violation>
+<violation beginline="54" endline="54" begincolumn="36" endcolumn="41" rule="ImmutableField" ruleset="Design" package="hr.fer.zemris.java.gui.calc.buttons" class="StackButton$StackListener" variable="parent" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/design.html#ImmutableField" priority="3">
+Private field 'parent' could be made final; it is only initialized in the declaration or constructor.
+</violation>
+<violation beginline="56" endline="56" begincolumn="40" endcolumn="48" rule="ImmutableField" ruleset="Design" package="hr.fer.zemris.java.gui.calc.buttons" class="StackButton$StackListener" variable="operation" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/design.html#ImmutableField" priority="3">
+Private field 'operation' could be made final; it is only initialized in the declaration or constructor.
+</violation>
+<violation beginline="63" endline="63" begincolumn="38" endcolumn="61" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc.buttons" class="StackButton$StackListener" method="StackListener" variable="operation" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'operation' is not assigned and could be declared final
+</violation>
+<violation beginline="63" endline="63" begincolumn="64" endcolumn="80" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc.buttons" class="StackButton$StackListener" method="StackListener" variable="parent" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'parent' is not assigned and could be declared final
+</violation>
+<violation beginline="70" endline="70" begincolumn="53" endcolumn="53" rule="ShortVariable" ruleset="Naming" package="hr.fer.zemris.java.gui.calc.buttons" class="StackButton$StackListener" method="mouseClicked" variable="e" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like e
+</violation>
+<violation beginline="70" endline="70" begincolumn="42" endcolumn="53" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc.buttons" class="StackButton$StackListener" method="mouseClicked" variable="e" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'e' is not assigned and could be declared final
+</violation>
+<violation beginline="70" endline="120" begincolumn="24" endcolumn="17" rule="CyclomaticComplexity" ruleset="Code Size" package="hr.fer.zemris.java.gui.calc.buttons" class="StackButton$StackListener" method="mouseClicked" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/codesize.html#CyclomaticComplexity" priority="3">
+The method 'mouseClicked' has a Cyclomatic Complexity of 10.
+</violation>
+<violation beginline="70" endline="120" begincolumn="24" endcolumn="17" rule="ModifiedCyclomaticComplexity" ruleset="Code Size" package="hr.fer.zemris.java.gui.calc.buttons" class="StackButton$StackListener" method="mouseClicked" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/codesize.html#ModifiedCyclomaticComplexity" priority="3">
+The method 'mouseClicked' has a Modified Cyclomatic Complexity of 10.
+</violation>
+<violation beginline="70" endline="120" begincolumn="24" endcolumn="17" rule="StdCyclomaticComplexity" ruleset="Code Size" package="hr.fer.zemris.java.gui.calc.buttons" class="StackButton$StackListener" method="mouseClicked" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/codesize.html#StdCyclomaticComplexity" priority="3">
+The method 'mouseClicked' has a Standard Cyclomatic Complexity of 10.
+</violation>
+<violation beginline="75" endline="75" begincolumn="41" endcolumn="47" rule="OnlyOneReturn" ruleset="Controversial" package="hr.fer.zemris.java.gui.calc.buttons" class="StackButton$StackListener" method="mouseClicked" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#OnlyOneReturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="77" endline="77" begincolumn="33" endcolumn="78" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc.buttons" class="StackButton$StackListener" method="mouseClicked" variable="peekElem" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'peekElem' could be declared final
+</violation>
+<violation beginline="80" endline="80" begincolumn="41" endcolumn="117" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc.buttons" class="StackButton$StackListener" method="mouseClicked" variable="peekOperation" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'peekOperation' could be declared final
+</violation>
+<violation beginline="81" endline="81" begincolumn="41" endcolumn="111" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc.buttons" class="StackButton$StackListener" method="mouseClicked" variable="peekNumber" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'peekNumber' could be declared final
+</violation>
+<violation beginline="86" endline="86" begincolumn="49" endcolumn="55" rule="OnlyOneReturn" ruleset="Controversial" package="hr.fer.zemris.java.gui.calc.buttons" class="StackButton$StackListener" method="mouseClicked" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#OnlyOneReturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="99" endline="99" begincolumn="41" endcolumn="47" rule="OnlyOneReturn" ruleset="Controversial" package="hr.fer.zemris.java.gui.calc.buttons" class="StackButton$StackListener" method="mouseClicked" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#OnlyOneReturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="101" endline="101" begincolumn="33" endcolumn="78" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc.buttons" class="StackButton$StackListener" method="mouseClicked" variable="peekElem" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'peekElem' could be declared final
+</violation>
+<violation beginline="110" endline="110" begincolumn="41" endcolumn="47" rule="OnlyOneReturn" ruleset="Controversial" package="hr.fer.zemris.java.gui.calc.buttons" class="StackButton$StackListener" method="mouseClicked" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#OnlyOneReturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="123" endline="123" begincolumn="53" endcolumn="53" rule="ShortVariable" ruleset="Naming" package="hr.fer.zemris.java.gui.calc.buttons" class="StackButton$StackListener" method="mousePressed" variable="e" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like e
+</violation>
+<violation beginline="123" endline="124" begincolumn="56" endcolumn="17" rule="UncommentedEmptyMethod" ruleset="Design" package="hr.fer.zemris.java.gui.calc.buttons" class="StackButton$StackListener" method="mousePressed" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/design.html#UncommentedEmptyMethod" priority="3">
+Document empty method
+</violation>
+<violation beginline="123" endline="123" begincolumn="42" endcolumn="53" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc.buttons" class="StackButton$StackListener" method="mousePressed" variable="e" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'e' is not assigned and could be declared final
+</violation>
+<violation beginline="127" endline="127" begincolumn="54" endcolumn="54" rule="ShortVariable" ruleset="Naming" package="hr.fer.zemris.java.gui.calc.buttons" class="StackButton$StackListener" method="mouseReleased" variable="e" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like e
+</violation>
+<violation beginline="127" endline="128" begincolumn="57" endcolumn="17" rule="UncommentedEmptyMethod" ruleset="Design" package="hr.fer.zemris.java.gui.calc.buttons" class="StackButton$StackListener" method="mouseReleased" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/design.html#UncommentedEmptyMethod" priority="3">
+Document empty method
+</violation>
+<violation beginline="127" endline="127" begincolumn="43" endcolumn="54" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc.buttons" class="StackButton$StackListener" method="mouseReleased" variable="e" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'e' is not assigned and could be declared final
+</violation>
+<violation beginline="131" endline="131" begincolumn="53" endcolumn="53" rule="ShortVariable" ruleset="Naming" package="hr.fer.zemris.java.gui.calc.buttons" class="StackButton$StackListener" method="mouseEntered" variable="e" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like e
+</violation>
+<violation beginline="131" endline="132" begincolumn="56" endcolumn="17" rule="UncommentedEmptyMethod" ruleset="Design" package="hr.fer.zemris.java.gui.calc.buttons" class="StackButton$StackListener" method="mouseEntered" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/design.html#UncommentedEmptyMethod" priority="3">
+Document empty method
+</violation>
+<violation beginline="131" endline="131" begincolumn="42" endcolumn="53" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc.buttons" class="StackButton$StackListener" method="mouseEntered" variable="e" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'e' is not assigned and could be declared final
+</violation>
+<violation beginline="135" endline="135" begincolumn="52" endcolumn="52" rule="ShortVariable" ruleset="Naming" package="hr.fer.zemris.java.gui.calc.buttons" class="StackButton$StackListener" method="mouseExited" variable="e" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like e
+</violation>
+<violation beginline="135" endline="136" begincolumn="55" endcolumn="17" rule="UncommentedEmptyMethod" ruleset="Design" package="hr.fer.zemris.java.gui.calc.buttons" class="StackButton$StackListener" method="mouseExited" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/design.html#UncommentedEmptyMethod" priority="3">
+Document empty method
+</violation>
+<violation beginline="135" endline="135" begincolumn="41" endcolumn="52" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc.buttons" class="StackButton$StackListener" method="mouseExited" variable="e" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'e' is not assigned and could be declared final
+</violation>
+</file>
+<file name="C:\Users\Vili\workspaceZaJavaTecaj\calculator\src\main\java\hr\fer\zemris\java\gui\calc\containers\IContainer.java">
+<violation beginline="14" endline="14" begincolumn="16" endcolumn="33" rule="UnusedModifier" ruleset="Unused Code" package="hr.fer.zemris.java.gui.calc.containers" class="IContainer" method="getValue" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/unusedcode.html#UnusedModifier" priority="3">
+Avoid modifiers which are implied by the context
+</violation>
+</file>
+<file name="C:\Users\Vili\workspaceZaJavaTecaj\calculator\src\main\java\hr\fer\zemris\java\gui\calc\containers\NumberContainer.java">
+<violation beginline="22" endline="22" begincolumn="32" endcolumn="43" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc.containers" class="NumberContainer" method="NumberContainer" variable="digit" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'digit' is not assigned and could be declared final
+</violation>
+<violation beginline="36" endline="36" begincolumn="28" endcolumn="39" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc.containers" class="NumberContainer" method="modify" variable="digit" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'digit' is not assigned and could be declared final
+</violation>
+</file>
+<file name="C:\Users\Vili\workspaceZaJavaTecaj\calculator\src\main\java\hr\fer\zemris\java\gui\calc\containers\OperatorContainer.java">
+<violation beginline="17" endline="17" begincolumn="24" endcolumn="28" rule="ImmutableField" ruleset="Design" package="hr.fer.zemris.java.gui.calc.containers" class="OperatorContainer" variable="value" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/design.html#ImmutableField" priority="3">
+Private field 'value' could be made final; it is only initialized in the declaration or constructor.
+</violation>
+<violation beginline="23" endline="23" begincolumn="27" endcolumn="32" rule="ImmutableField" ruleset="Design" package="hr.fer.zemris.java.gui.calc.containers" class="OperatorContainer" variable="symbol" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/design.html#ImmutableField" priority="3">
+Private field 'symbol' could be made final; it is only initialized in the declaration or constructor.
+</violation>
+<violation beginline="30" endline="30" begincolumn="34" endcolumn="44" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc.containers" class="OperatorContainer" method="OperatorContainer" variable="oper" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'oper' is not assigned and could be declared final
+</violation>
+<violation beginline="30" endline="30" begincolumn="47" endcolumn="62" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.calc.containers" class="OperatorContainer" method="OperatorContainer" variable="symbol" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'symbol' is not assigned and could be declared final
+</violation>
+</file>
+<file name="C:\Users\Vili\workspaceZaJavaTecaj\calculator\src\main\java\hr\fer\zemris\java\gui\layouts\CalcLayout.java">
+<violation beginline="46" endline="46" begincolumn="27" endcolumn="46" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.layouts" class="CalcLayout" method="CalcLayout" variable="spaceBetweenComp" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'spaceBetweenComp' is not assigned and could be declared final
+</violation>
+<violation beginline="62" endline="62" begincolumn="53" endcolumn="66" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.layouts" class="CalcLayout" method="addLayoutComponent" variable="comp" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'comp' is not assigned and could be declared final
+</violation>
+<violation beginline="62" endline="62" begincolumn="40" endcolumn="50" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.layouts" class="CalcLayout" method="addLayoutComponent" variable="name" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'name' is not assigned and could be declared final
+</violation>
+<violation beginline="67" endline="70" begincolumn="28" endcolumn="59" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="hr.fer.zemris.java.gui.layouts" class="CalcLayout" method="removeLayoutComponent" variable="key" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'UR'-anomaly for variable 'key' (lines '67'-'70').
+</violation>
+<violation beginline="67" endline="67" begincolumn="43" endcolumn="56" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.layouts" class="CalcLayout" method="removeLayoutComponent" variable="comp" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'comp' is not assigned and could be declared final
+</violation>
+<violation beginline="69" endline="69" begincolumn="21" endcolumn="34" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.layouts" class="CalcLayout" method="removeLayoutComponent" variable="key" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'key' could be declared final
+</violation>
+<violation beginline="78" endline="78" begincolumn="46" endcolumn="61" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.layouts" class="CalcLayout" method="preferredLayoutSize" variable="parent" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'parent' is not assigned and could be declared final
+</violation>
+<violation beginline="80" endline="80" begincolumn="17" endcolumn="63" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.layouts" class="CalcLayout" method="preferredLayoutSize" variable="dim" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'dim' could be declared final
+</violation>
+<violation beginline="82" endline="82" begincolumn="17" endcolumn="50" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.layouts" class="CalcLayout" method="preferredLayoutSize" variable="insets" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'insets' could be declared final
+</violation>
+<violation beginline="93" endline="93" begincolumn="44" endcolumn="59" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.layouts" class="CalcLayout" method="minimumLayoutSize" variable="parent" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'parent' is not assigned and could be declared final
+</violation>
+<violation beginline="95" endline="95" begincolumn="17" endcolumn="61" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.layouts" class="CalcLayout" method="minimumLayoutSize" variable="dim" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'dim' could be declared final
+</violation>
+<violation beginline="97" endline="97" begincolumn="17" endcolumn="50" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.layouts" class="CalcLayout" method="minimumLayoutSize" variable="insets" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'insets' could be declared final
+</violation>
+<violation beginline="112" endline="118" begincolumn="35" endcolumn="65" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="hr.fer.zemris.java.gui.layouts" class="CalcLayout" method="getMinimumSizeForComponents" variable="key" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'UR'-anomaly for variable 'key' (lines '112'-'118').
+</violation>
+<violation beginline="116" endline="116" begincolumn="17" endcolumn="56" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.layouts" class="CalcLayout" method="getMinimumSizeForComponents" variable="bigOne" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'bigOne' could be declared final
+</violation>
+<violation beginline="117" endline="117" begincolumn="21" endcolumn="34" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.layouts" class="CalcLayout" method="getMinimumSizeForComponents" variable="key" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'key' could be declared final
+</violation>
+<violation beginline="118" endline="118" begincolumn="25" endcolumn="65" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.layouts" class="CalcLayout" method="getMinimumSizeForComponents" variable="comp" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'comp' could be declared final
+</violation>
+<violation beginline="123" endline="123" begincolumn="25" endcolumn="61" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.layouts" class="CalcLayout" method="getMinimumSizeForComponents" variable="dim" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'dim' could be declared final
+</violation>
+<violation beginline="127" endline="132" begincolumn="33" endcolumn="103" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="hr.fer.zemris.java.gui.layouts" class="CalcLayout" method="getMinimumSizeForComponents" variable="wantedWidth" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'wantedWidth' (lines '127'-'132').
+</violation>
+<violation beginline="127" endline="137" begincolumn="33" endcolumn="55" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="hr.fer.zemris.java.gui.layouts" class="CalcLayout" method="getMinimumSizeForComponents" variable="wantedWidth" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'wantedWidth' (lines '127'-'137').
+</violation>
+<violation beginline="128" endline="131" begincolumn="33" endcolumn="57" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="hr.fer.zemris.java.gui.layouts" class="CalcLayout" method="getMinimumSizeForComponents" variable="wantedHeight" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'wantedHeight' (lines '128'-'131').
+</violation>
+<violation beginline="128" endline="136" begincolumn="33" endcolumn="57" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="hr.fer.zemris.java.gui.layouts" class="CalcLayout" method="getMinimumSizeForComponents" variable="wantedHeight" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'wantedHeight' (lines '128'-'136').
+</violation>
+<violation beginline="155" endline="161" begincolumn="35" endcolumn="65" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="hr.fer.zemris.java.gui.layouts" class="CalcLayout" method="getPreferredSizeForComponents" variable="key" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'UR'-anomaly for variable 'key' (lines '155'-'161').
+</violation>
+<violation beginline="159" endline="159" begincolumn="17" endcolumn="56" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.layouts" class="CalcLayout" method="getPreferredSizeForComponents" variable="bigOne" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'bigOne' could be declared final
+</violation>
+<violation beginline="160" endline="160" begincolumn="21" endcolumn="34" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.layouts" class="CalcLayout" method="getPreferredSizeForComponents" variable="key" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'key' could be declared final
+</violation>
+<violation beginline="161" endline="161" begincolumn="25" endcolumn="65" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.layouts" class="CalcLayout" method="getPreferredSizeForComponents" variable="comp" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'comp' could be declared final
+</violation>
+<violation beginline="166" endline="166" begincolumn="25" endcolumn="63" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.layouts" class="CalcLayout" method="getPreferredSizeForComponents" variable="dim" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'dim' could be declared final
+</violation>
+<violation beginline="170" endline="175" begincolumn="33" endcolumn="103" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="hr.fer.zemris.java.gui.layouts" class="CalcLayout" method="getPreferredSizeForComponents" variable="wantedWidth" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'wantedWidth' (lines '170'-'175').
+</violation>
+<violation beginline="170" endline="180" begincolumn="33" endcolumn="55" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="hr.fer.zemris.java.gui.layouts" class="CalcLayout" method="getPreferredSizeForComponents" variable="wantedWidth" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'wantedWidth' (lines '170'-'180').
+</violation>
+<violation beginline="171" endline="174" begincolumn="33" endcolumn="57" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="hr.fer.zemris.java.gui.layouts" class="CalcLayout" method="getPreferredSizeForComponents" variable="wantedHeight" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'wantedHeight' (lines '171'-'174').
+</violation>
+<violation beginline="171" endline="179" begincolumn="33" endcolumn="57" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="hr.fer.zemris.java.gui.layouts" class="CalcLayout" method="getPreferredSizeForComponents" variable="wantedHeight" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'wantedHeight' (lines '171'-'179').
+</violation>
+<violation beginline="194" endline="216" begincolumn="27" endcolumn="57" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="hr.fer.zemris.java.gui.layouts" class="CalcLayout" method="layoutContainer" variable="key" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'UR'-anomaly for variable 'key' (lines '194'-'216').
+</violation>
+<violation beginline="194" endline="194" begincolumn="37" endcolumn="52" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.layouts" class="CalcLayout" method="layoutContainer" variable="parent" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'parent' is not assigned and could be declared final
+</violation>
+<violation beginline="196" endline="196" begincolumn="17" endcolumn="50" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.layouts" class="CalcLayout" method="layoutContainer" variable="insets" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'insets' could be declared final
+</violation>
+<violation beginline="197" endline="197" begincolumn="9" endcolumn="28" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.layouts" class="CalcLayout" method="layoutContainer" variable="top" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'top' could be declared final
+</violation>
+<violation beginline="198" endline="198" begincolumn="9" endcolumn="55" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.layouts" class="CalcLayout" method="layoutContainer" variable="bottom" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'bottom' could be declared final
+</violation>
+<violation beginline="199" endline="199" begincolumn="9" endcolumn="30" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.layouts" class="CalcLayout" method="layoutContainer" variable="left" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'left' could be declared final
+</violation>
+<violation beginline="200" endline="200" begincolumn="9" endcolumn="52" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.layouts" class="CalcLayout" method="layoutContainer" variable="right" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'right' could be declared final
+</violation>
+<violation beginline="202" endline="202" begincolumn="13" endcolumn="36" rule="LongVariable" ruleset="Naming" package="hr.fer.zemris.java.gui.layouts" class="CalcLayout" method="layoutContainer" variable="availableSpaceHorizontal" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/naming.html#LongVariable" priority="3">
+Avoid excessively long variable names like availableSpaceHorizontal
+</violation>
+<violation beginline="202" endline="202" begincolumn="9" endcolumn="51" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.layouts" class="CalcLayout" method="layoutContainer" variable="availableSpaceHorizontal" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'availableSpaceHorizontal' could be declared final
+</violation>
+<violation beginline="203" endline="203" begincolumn="13" endcolumn="34" rule="LongVariable" ruleset="Naming" package="hr.fer.zemris.java.gui.layouts" class="CalcLayout" method="layoutContainer" variable="availableSpaceVertical" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/naming.html#LongVariable" priority="3">
+Avoid excessively long variable names like availableSpaceVertical
+</violation>
+<violation beginline="203" endline="203" begincolumn="9" endcolumn="49" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.layouts" class="CalcLayout" method="layoutContainer" variable="availableSpaceVertical" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'availableSpaceVertical' could be declared final
+</violation>
+<violation beginline="204" endline="204" begincolumn="13" endcolumn="42" rule="LongVariable" ruleset="Naming" package="hr.fer.zemris.java.gui.layouts" class="CalcLayout" method="layoutContainer" variable="availableHeightForOneComponent" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/naming.html#LongVariable" priority="3">
+Avoid excessively long variable names like availableHeightForOneComponent
+</violation>
+<violation beginline="204" endline="204" begincolumn="9" endcolumn="114" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.layouts" class="CalcLayout" method="layoutContainer" variable="availableHeightForOneComponent" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'availableHeightForOneComponent' could be declared final
+</violation>
+<violation beginline="205" endline="205" begincolumn="13" endcolumn="41" rule="LongVariable" ruleset="Naming" package="hr.fer.zemris.java.gui.layouts" class="CalcLayout" method="layoutContainer" variable="availableWidthForOneComponent" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/naming.html#LongVariable" priority="3">
+Avoid excessively long variable names like availableWidthForOneComponent
+</violation>
+<violation beginline="205" endline="205" begincolumn="9" endcolumn="115" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.layouts" class="CalcLayout" method="layoutContainer" variable="availableWidthForOneComponent" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'availableWidthForOneComponent' could be declared final
+</violation>
+<violation beginline="207" endline="207" begincolumn="19" endcolumn="41" rule="LongVariable" ruleset="Naming" package="hr.fer.zemris.java.gui.layouts" class="CalcLayout" method="layoutContainer" variable="dimensionOfOneComponent" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/naming.html#LongVariable" priority="3">
+Avoid excessively long variable names like dimensionOfOneComponent
+</violation>
+<violation beginline="207" endline="207" begincolumn="9" endcolumn="73" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.layouts" class="CalcLayout" method="layoutContainer" variable="dimensionOfOneComponent" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'dimensionOfOneComponent' could be declared final
+</violation>
+<violation beginline="214" endline="228" begincolumn="20" endcolumn="48" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="hr.fer.zemris.java.gui.layouts" class="CalcLayout" method="layoutContainer" variable="bigOne" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'bigOne' (lines '214'-'228').
+</violation>
+<violation beginline="214" endline="214" begincolumn="9" endcolumn="48" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.layouts" class="CalcLayout" method="layoutContainer" variable="bigOne" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'bigOne' could be declared final
+</violation>
+<violation beginline="215" endline="215" begincolumn="13" endcolumn="26" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.layouts" class="CalcLayout" method="layoutContainer" variable="key" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'key' could be declared final
+</violation>
+<violation beginline="216" endline="216" begincolumn="17" endcolumn="57" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.layouts" class="CalcLayout" method="layoutContainer" variable="comp" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'comp' could be declared final
+</violation>
+<violation beginline="222" endline="222" begincolumn="29" endcolumn="29" rule="ShortVariable" ruleset="Naming" package="hr.fer.zemris.java.gui.layouts" class="CalcLayout" method="layoutContainer" variable="x" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like x
+</violation>
+<violation beginline="222" endline="222" begincolumn="25" endcolumn="113" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.layouts" class="CalcLayout" method="layoutContainer" variable="x" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'x' could be declared final
+</violation>
+<violation beginline="223" endline="223" begincolumn="21" endcolumn="21" rule="ShortVariable" ruleset="Naming" package="hr.fer.zemris.java.gui.layouts" class="CalcLayout" method="layoutContainer" variable="y" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like y
+</violation>
+<violation beginline="223" endline="223" begincolumn="17" endcolumn="102" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.layouts" class="CalcLayout" method="layoutContainer" variable="y" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'y' could be declared final
+</violation>
+<violation beginline="231" endline="231" begincolumn="40" endcolumn="53" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.layouts" class="CalcLayout" method="addLayoutComponent" variable="comp" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'comp' is not assigned and could be declared final
+</violation>
+<violation beginline="231" endline="231" begincolumn="56" endcolumn="73" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.layouts" class="CalcLayout" method="addLayoutComponent" variable="constraints" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'constraints' is not assigned and could be declared final
+</violation>
+<violation beginline="233" endline="233" begincolumn="17" endcolumn="76" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.layouts" class="CalcLayout" method="addLayoutComponent" variable="position" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'position' could be declared final
+</violation>
+<violation beginline="247" endline="247" begincolumn="43" endcolumn="61" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.layouts" class="CalcLayout" method="isInvalidPosition" variable="position" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'position' is not assigned and could be declared final
+</violation>
+<violation beginline="252" endline="252" begincolumn="25" endcolumn="36" rule="OnlyOneReturn" ruleset="Controversial" package="hr.fer.zemris.java.gui.layouts" class="CalcLayout" method="isInvalidPosition" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#OnlyOneReturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="254" endline="254" begincolumn="41" endcolumn="41" rule="AvoidLiteralsInIfCondition" ruleset="Controversial" package="hr.fer.zemris.java.gui.layouts" class="CalcLayout" method="isInvalidPosition" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#AvoidLiteralsInIfCondition" priority="3">
+Avoid using Literals in Conditional Statements
+</violation>
+<violation beginline="255" endline="258" begincolumn="25" endcolumn="25" rule="CollapsibleIfStatements" ruleset="Basic" package="hr.fer.zemris.java.gui.layouts" class="CalcLayout" method="isInvalidPosition" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/basic.html#CollapsibleIfStatements" priority="3">
+These nested if statements could be combined
+</violation>
+<violation beginline="257" endline="257" begincolumn="33" endcolumn="44" rule="OnlyOneReturn" ruleset="Controversial" package="hr.fer.zemris.java.gui.layouts" class="CalcLayout" method="isInvalidPosition" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#OnlyOneReturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="262" endline="262" begincolumn="25" endcolumn="36" rule="OnlyOneReturn" ruleset="Controversial" package="hr.fer.zemris.java.gui.layouts" class="CalcLayout" method="isInvalidPosition" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#OnlyOneReturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="268" endline="268" begincolumn="44" endcolumn="59" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.layouts" class="CalcLayout" method="maximumLayoutSize" variable="target" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'target' is not assigned and could be declared final
+</violation>
+<violation beginline="273" endline="273" begincolumn="42" endcolumn="57" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.layouts" class="CalcLayout" method="getLayoutAlignmentX" variable="target" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'target' is not assigned and could be declared final
+</violation>
+<violation beginline="278" endline="278" begincolumn="42" endcolumn="57" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.layouts" class="CalcLayout" method="getLayoutAlignmentY" variable="target" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'target' is not assigned and could be declared final
+</violation>
+<violation beginline="283" endline="284" begincolumn="56" endcolumn="9" rule="UncommentedEmptyMethod" ruleset="Design" package="hr.fer.zemris.java.gui.layouts" class="CalcLayout" method="invalidateLayout" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/design.html#UncommentedEmptyMethod" priority="3">
+Document empty method
+</violation>
+<violation beginline="283" endline="283" begincolumn="38" endcolumn="53" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.layouts" class="CalcLayout" method="invalidateLayout" variable="target" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'target' is not assigned and could be declared final
+</violation>
+</file>
+<file name="C:\Users\Vili\workspaceZaJavaTecaj\calculator\src\main\java\hr\fer\zemris\java\gui\layouts\RCPosition.java">
+<violation beginline="17" endline="17" begincolumn="21" endcolumn="23" rule="ImmutableField" ruleset="Design" package="hr.fer.zemris.java.gui.layouts" class="RCPosition" variable="row" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/design.html#ImmutableField" priority="3">
+Private field 'row' could be made final; it is only initialized in the declaration or constructor.
+</violation>
+<violation beginline="22" endline="22" begincolumn="21" endcolumn="26" rule="ImmutableField" ruleset="Design" package="hr.fer.zemris.java.gui.layouts" class="RCPosition" variable="column" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/design.html#ImmutableField" priority="3">
+Private field 'column' could be made final; it is only initialized in the declaration or constructor.
+</violation>
+<violation beginline="29" endline="29" begincolumn="36" endcolumn="45" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.layouts" class="RCPosition" method="RCPosition" variable="column" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'column' is not assigned and could be declared final
+</violation>
+<violation beginline="29" endline="29" begincolumn="27" endcolumn="33" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.layouts" class="RCPosition" method="RCPosition" variable="row" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'row' is not assigned and could be declared final
+</violation>
+<violation beginline="61" endline="61" begincolumn="49" endcolumn="66" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.layouts" class="RCPosition" method="definePosition" variable="constraints" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'constraints' is not assigned and could be declared final
+</violation>
+<violation beginline="64" endline="64" begincolumn="25" endcolumn="56" rule="OnlyOneReturn" ruleset="Controversial" package="hr.fer.zemris.java.gui.layouts" class="RCPosition" method="definePosition" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#OnlyOneReturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="68" endline="68" begincolumn="25" endcolumn="61" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.layouts" class="RCPosition" method="definePosition" variable="postion" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'postion' could be declared final
+</violation>
+<violation beginline="69" endline="69" begincolumn="25" endcolumn="63" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.layouts" class="RCPosition" method="definePosition" variable="arguments" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'arguments' could be declared final
+</violation>
+<violation beginline="71" endline="71" begincolumn="48" endcolumn="48" rule="AvoidLiteralsInIfCondition" ruleset="Controversial" package="hr.fer.zemris.java.gui.layouts" class="RCPosition" method="definePosition" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#AvoidLiteralsInIfCondition" priority="3">
+Avoid using Literals in Conditional Statements
+</violation>
+<violation beginline="74" endline="74" begincolumn="25" endcolumn="77" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.layouts" class="RCPosition" method="definePosition" variable="xPosition" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'xPosition' could be declared final
+</violation>
+<violation beginline="75" endline="75" begincolumn="25" endcolumn="77" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.layouts" class="RCPosition" method="definePosition" variable="yPosition" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'yPosition' could be declared final
+</violation>
+<violation beginline="85" endline="85" begincolumn="24" endcolumn="43" rule="OverrideBothEqualsAndHashcode" ruleset="Basic" package="hr.fer.zemris.java.gui.layouts" class="RCPosition" method="equals" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/basic.html#OverrideBothEqualsAndHashcode" priority="3">
+Ensure you override both equals() and hashCode()
+</violation>
+<violation beginline="85" endline="85" begincolumn="31" endcolumn="42" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.layouts" class="RCPosition" method="equals" variable="other" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'other' is not assigned and could be declared final
+</violation>
+<violation beginline="87" endline="87" begincolumn="25" endcolumn="37" rule="OnlyOneReturn" ruleset="Controversial" package="hr.fer.zemris.java.gui.layouts" class="RCPosition" method="equals" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#OnlyOneReturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="89" endline="89" begincolumn="17" endcolumn="61" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.layouts" class="RCPosition" method="equals" variable="otherPosition" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'otherPosition' could be declared final
+</violation>
+<violation beginline="90" endline="90" begincolumn="25" endcolumn="58" rule="UselessParentheses" ruleset="Unnecessary" package="hr.fer.zemris.java.gui.layouts" class="RCPosition" method="equals" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/unnecessary.html#UselessParentheses" priority="4">
+Useless parentheses.
+</violation>
+<violation beginline="90" endline="90" begincolumn="25" endcolumn="58" rule="UselessParentheses" ruleset="Unnecessary" package="hr.fer.zemris.java.gui.layouts" class="RCPosition" method="equals" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/unnecessary.html#UselessParentheses" priority="4">
+Useless parentheses.
+</violation>
+<violation beginline="91" endline="91" begincolumn="37" endcolumn="76" rule="UselessParentheses" ruleset="Unnecessary" package="hr.fer.zemris.java.gui.layouts" class="RCPosition" method="equals" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/unnecessary.html#UselessParentheses" priority="4">
+Useless parentheses.
+</violation>
+<violation beginline="91" endline="91" begincolumn="37" endcolumn="76" rule="UselessParentheses" ruleset="Unnecessary" package="hr.fer.zemris.java.gui.layouts" class="RCPosition" method="equals" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/unnecessary.html#UselessParentheses" priority="4">
+Useless parentheses.
+</violation>
+</file>
+</pmd>
